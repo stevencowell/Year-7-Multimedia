@@ -84,22 +84,47 @@
     </div>
   </article>`;
 
-  const renderCheck = check => {
+  const orderedOptions = check => {
     const options = asArray(check.options);
+    if (options.length < 2) return options;
+    const match = String(check.id || "").match(/m(\d+)-s(\d+)-q(\d+)/i);
+    const seed = match ? Number(match[1]) + Number(match[2]) + Number(match[3]) : String(check.id || "").length;
+    const shift = seed % options.length;
+    const rotated = options.slice(shift).concat(options.slice(0, shift));
+    return seed % 2 ? rotated.reverse() : rotated;
+  };
+
+  const reviewLink = helpAnchor => helpAnchor
+    ? `<a class="theory-return" href="#${esc(helpAnchor)}">Review this theory</a>`
+    : "";
+
+  const responseSupport = response => `
+    ${asArray(response.scaffold).length ? `<div class="scaffold"><h4>Build your response</h4>${list(response.scaffold)}</div>` : ""}
+    ${asArray(response.starters).length ? `<details><summary>Sentence starters</summary>${list(response.starters)}</details>` : ""}`;
+
+  const renderCheck = (check, index, total) => {
+    const options = orderedOptions(check);
     if (!options.length) {
       return `<section class="knowledge-check" data-written-check data-storage-key="${esc(check.storageKey || check.id)}">
-        <h3>Quick check</h3><label for="${esc(check.id)}">${esc(check.prompt)}</label>
+        <p class="eyebrow">Longer response</p><h3>${esc(check.label || `Explain your thinking`)}</h3>
+        <p>${esc(check.prompt)}</p>
+        ${responseSupport(check)}
         ${check.hint ? `<details class="hint"><summary>Need a hint?</summary><p>${esc(check.hint)}</p></details>` : ""}
-        <textarea id="${esc(check.id)}" rows="4" data-save-field placeholder="Write a short answer here. No drawing is required."></textarea>
+        <label for="${esc(check.id)}">Your response</label>
+        <textarea id="${esc(check.id)}" rows="7" data-save-field placeholder="Explain your reasoning here. No drawing is required."></textarea>
+        <p class="response-meta"><span>${check.wordGuide ? `Suggested length: ${esc(check.wordGuide)}` : "Use complete sentences and specific evidence."}</span><span data-word-count>0 words</span></p>
+        ${asArray(check.qualityIndicators).length ? `<div class="quality-check"><h4>Before you save</h4>${list(check.qualityIndicators, "check-list")}</div>` : ""}
         <div class="save-row"><button class="button" type="button" data-save-written>Save response</button><span class="save-status" role="status"></span></div>
+        ${reviewLink(check.helpAnchor)}
+        <p class="fine">Formative learning evidence saved here stays in this browser and is not a submission.</p>
       </section>`;
     }
     return `<form class="knowledge-check" data-choice-check data-storage-key="${esc(check.storageKey || check.id)}">
-      <fieldset><legend><span>Quick check</span>${esc(check.prompt)}</legend>
+      <fieldset><legend><span>Question ${index + 1} of ${total}</span>${esc(check.prompt)}</legend>
         ${options.map(option => `<label class="choice"><input type="radio" name="${esc(check.id)}" value="${esc(option.id)}" data-correct="${option.correct ? "true" : "false"}" data-feedback="${esc(option.feedback)}"><span>${esc(option.text)}</span></label>`).join("")}
       </fieldset>
       ${check.hint ? `<details class="hint"><summary>Need a hint?</summary><p>${esc(check.hint)}</p></details>` : ""}
-      <p class="check-feedback" role="status" aria-live="polite"></p>
+      <div class="check-feedback" role="status" aria-live="polite" data-feedback-panel hidden><span data-feedback-copy></span>${reviewLink(check.helpAnchor)}<span class="saved-chip" data-choice-saved></span></div>
     </form>`;
   };
 
@@ -111,8 +136,10 @@
     ${asArray(capstone.starters).length ? `<details><summary>Sentence starters</summary>${list(capstone.starters)}</details>` : ""}
     <label for="${esc(capstone.id)}-response">Your response</label>
     <textarea id="${esc(capstone.id)}-response" rows="8" data-save-field placeholder="Type your evidence here. No drawing is required."></textarea>
+    <p class="response-meta"><span>${capstone.wordGuide ? `Suggested length: ${esc(capstone.wordGuide)}` : "Use enough detail to explain and justify your thinking."}</span><span data-word-count>0 words</span></p>
     ${asArray(capstone.qualityIndicators).length ? `<div class="quality-check"><h4>Before you save</h4>${list(capstone.qualityIndicators, "check-list")}</div>` : ""}
     <div class="save-row"><button class="button" type="button" data-save-evidence>Save to this browser</button><span class="save-status" role="status" aria-live="polite"></span></div>
+    ${reviewLink(capstone.helpAnchor)}
     <p class="fine">Saved here is a working copy, not a formal submission. Back it up from My folio.</p>
   </section>`;
 
@@ -139,6 +166,8 @@
   const renderSection = section => {
     const visuals = visualsFor(section);
     const videos = videosFor(section);
+    const checks = asArray(section.checks);
+    const extendedResponses = asArray(section.extendedResponses);
     const sectionNumber = Number(section.id.match(/-s(\d+)/)?.[1] || 1);
     return `<section class="lesson-section" id="${esc(section.id)}">
       <header class="lesson-heading"><p class="section-number" aria-hidden="true">${sectionNumber}</p><h2>${esc(section.title)}</h2><p>${esc(section.learningIntent)}</p></header>
@@ -148,7 +177,8 @@
       ${section.misconception ? `<aside class="misconception"><h3>A common trap</h3>${misconceptionText(section.misconception)}</aside>` : ""}
       ${visuals.length ? `<div class="visual-grid">${visuals.map(renderVisual).join("")}</div>` : ""}
       ${videos.map(renderVideo).join("")}
-      ${asArray(section.checks).map(renderCheck).join("")}
+      ${checks.length ? `<section class="check-set" aria-labelledby="${esc(section.id)}-check-title"><header class="check-set__intro"><p class="eyebrow">Knowledge check</p><h3 id="${esc(section.id)}-check-title">Check ${checks.length} key ideas</h3><p>Choose the strongest answer. Your choice is saved on this device, and the feedback links back to the relevant explanation.</p></header>${checks.map((check, index) => renderCheck(check, index, checks.length)).join("")}</section>` : ""}
+      ${extendedResponses.map(response => renderCheck(response, 0, 0)).join("")}
       ${section.activityRequest?.id ? `<p class="activity-link"><a class="button secondary" href="../activities.html#${esc(section.activityRequest.id)}">Open the linked applied activity</a></p>` : ""}
       ${section.capstone ? renderCapstone(section.capstone) : ""}
     </section>`;
@@ -198,18 +228,49 @@
 
   document.querySelectorAll("[data-choice-check]").forEach(form => {
     const key = form.dataset.storageKey;
+    const savedAtKey = `${key}:saved-at`;
     const saved = readStored(key);
+    const showFeedback = (input, revisited = false) => {
+      const panel = form.querySelector("[data-feedback-panel]");
+      const copy = form.querySelector("[data-feedback-copy]");
+      const savedState = form.querySelector("[data-choice-saved]");
+      if (!panel || !copy || !input) return;
+      copy.textContent = input.dataset.feedback;
+      panel.dataset.result = input.dataset.correct === "true" ? "correct" : "retry";
+      panel.hidden = false;
+      if (savedState) {
+        const date = readStored(savedAtKey);
+        const parsed = date ? new Date(date) : null;
+        const detail = parsed && !Number.isNaN(parsed.getTime())
+          ? ` · ${parsed.toLocaleString("en-AU", { dateStyle: "medium", timeStyle: "short" })}`
+          : "";
+        savedState.textContent = `Saved on this device${detail}${revisited ? " · restored" : ""}`;
+      }
+    };
     if (saved) {
       const input = form.querySelector(`input[value="${CSS.escape(saved)}"]`);
-      if (input) input.checked = true;
+      if (input) {
+        input.checked = true;
+        showFeedback(input, true);
+      }
     }
     form.addEventListener("change", event => {
       const input = event.target.closest("input[type=radio]");
       if (!input) return;
-      const feedback = form.querySelector(".check-feedback");
       const ok = writeStored(key, input.value);
-      feedback.textContent = ok ? input.dataset.feedback : "This browser could not save the response. Use My folio to make a backup after you retry.";
-      feedback.dataset.result = input.dataset.correct === "true" ? "correct" : "retry";
+      if (ok) {
+        writeStored(savedAtKey, new Date().toISOString());
+        showFeedback(input);
+      }
+      else {
+        const panel = form.querySelector("[data-feedback-panel]");
+        const copy = form.querySelector("[data-feedback-copy]");
+        if (panel && copy) {
+          copy.textContent = "This browser could not save the response. Use My folio to make a backup after you retry.";
+          panel.dataset.result = "retry";
+          panel.hidden = false;
+        }
+      }
       updateProgress();
     });
   });
@@ -218,13 +279,50 @@
     const field = card.querySelector("[data-save-field]");
     const key = card.dataset.storageKey;
     const saved = readStored(key);
-    if (saved) field.value = saved;
+    const savedAtKey = `${key}:saved-at`;
     const saveButton = card.querySelector("[data-save-written], [data-save-evidence]");
     const saveStatus = card.querySelector(".save-status");
-    saveButton?.addEventListener("click", () => {
+    const wordCount = card.querySelector("[data-word-count]");
+    let saveTimer;
+    const updateWordCount = () => {
+      const words = field.value.trim() ? field.value.trim().split(/\s+/).length : 0;
+      if (wordCount) wordCount.textContent = `${words} ${words === 1 ? "word" : "words"}`;
+    };
+    const showSavedState = (restored = false) => {
+      if (!saveStatus) return;
+      const date = readStored(savedAtKey);
+      let detail = "";
+      if (date) {
+        const parsed = new Date(date);
+        if (!Number.isNaN(parsed.getTime())) detail = ` · ${parsed.toLocaleString("en-AU", { dateStyle: "medium", timeStyle: "short" })}`;
+      }
+      status(saveStatus, `Saved on this device${detail}${restored ? " · restored" : ""}.`, true);
+    };
+    const saveResponse = () => {
       const ok = writeStored(key, field.value.trim());
-      status(saveStatus, ok ? (card.dataset.evidence !== undefined ? "Saved to this browser." : "Response saved.") : "Could not save in this browser.", ok);
+      if (ok) {
+        writeStored(savedAtKey, new Date().toISOString());
+        showSavedState();
+      } else status(saveStatus, "Could not save in this browser.", false);
       updateProgress();
+    };
+    if (saved) {
+      field.value = saved;
+      showSavedState(true);
+    }
+    updateWordCount();
+    field.addEventListener("input", () => {
+      updateWordCount();
+      clearTimeout(saveTimer);
+      saveTimer = setTimeout(saveResponse, 700);
+    });
+    field.addEventListener("blur", () => {
+      clearTimeout(saveTimer);
+      if (field.value.trim() !== readStored(key)) saveResponse();
+    });
+    saveButton?.addEventListener("click", () => {
+      clearTimeout(saveTimer);
+      saveResponse();
     });
   });
 
