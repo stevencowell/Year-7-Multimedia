@@ -1,0 +1,407 @@
+{
+  "artifact": "Year 7 Multimedia classroom presentation package",
+  "version": "2.0-photo-uplift",
+  "generated": "2026-08-24T00:00:00+10:00",
+  "candidate": {
+    "repository": "stevencowell/Year-7-Multimedia",
+    "baseCommit": "f9a03bd",
+    "state": "local working candidate; not committed, pushed, deployed or live-verified"
+  },
+  "deckCount": 10,
+  "totalSlides": 80,
+  "visualSystem": "16:9 image-first classroom deck; one dominant photographic learning visual on each theory slide, with compact caption and Notice prompt.",
+  "decks": [
+    {
+      "module": 1,
+      "file": "resources/presentations/module-01-the-design-challenge.pptx",
+      "bytes": 12936234,
+      "sha256": "d0cab7ed289543e93cd02c7ae131d4e12000548f4011281bc2cce29c4184edda",
+      "slides": 8,
+      "notesParts": 8,
+      "finalRenders": 8,
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "id": "design-brief-planning-workspace",
+          "file": "assets/visuals/generated-design-brief-planning-workspace.png",
+          "alt": "Overhead design table with a four-part brief sheet, thumbnail wireframes, an audience card, colour swatches and a checklist."
+        },
+        {
+          "slide": 4,
+          "id": "audience-research-workspace",
+          "file": "assets/visuals/generated-audience-research-workspace.png",
+          "alt": "Overhead design table with several pairs of hands sorting simple audience-profile symbol cards, colour swatches and blank notes."
+        },
+        {
+          "slide": 5,
+          "id": "responsible-ai-filter",
+          "file": "assets/visuals/generated-m01-responsible-ai-decision-trail-v2.png",
+          "alt": "Overhead design workspace with blank source-check cards, hand-developed alternatives and decision tokens arranged as a responsible AI trail."
+        }
+      ],
+      "qa": {
+        "imageFirstTheorySlides": "PASS — slides 3–5",
+        "paddedOverflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "renderedInspection": "PASS",
+        "finalVerdict": "PASS"
+      }
+    },
+    {
+      "module": 2,
+      "file": "resources/presentations/module-02-visual-language.pptx",
+      "bytes": 14038563,
+      "sha256": "c651cd39ca868359756928c22560d873ad52d267e3f303297273eae0377f233a",
+      "slides": 8,
+      "notesParts": 8,
+      "finalRenders": 8,
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "id": "brand-direction-comparison",
+          "file": "assets/visuals/generated-brand-direction-comparison.png",
+          "alt": "Side-by-side photographic brand boards with warm red angular packaging on the left and cool teal rounded packaging on the right."
+        },
+        {
+          "slide": 4,
+          "id": "typography-tone-comparison",
+          "file": "assets/visuals/generated-m02-typography-tone-proof-v3.png",
+          "alt": "Overhead studio photograph of two clean typography proof sheets, colour chips, fabric samples and optical viewing tools."
+        },
+        {
+          "slide": 5,
+          "id": "moodboard-workspace",
+          "file": "assets/visuals/generated-moodboard-workspace.png",
+          "alt": "Overhead mood board with earthy swatches, paper textures, abstract letterforms, food photographs and layout thumbnails on a cutting mat."
+        }
+      ],
+      "qa": {
+        "imageFirstTheorySlides": "PASS — slides 3–5",
+        "paddedOverflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "renderedInspection": "PASS",
+        "finalVerdict": "PASS"
+      }
+    },
+    {
+      "module": 3,
+      "file": "resources/presentations/module-03-logo-systems.pptx",
+      "bytes": 12272888,
+      "sha256": "bf1d4101c74d1047e9e4571d90a4b443177205fbe5998d41f8e5f70b108633b9",
+      "slides": 8,
+      "notesParts": 8,
+      "finalRenders": 8,
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "id": "logo-scale-context",
+          "file": "assets/visuals/generated-logo-scale-context.png",
+          "alt": "Photographic takeaway mock-up showing the same black, orange and white geometric mark on a wall sign, cup and small app tile."
+        },
+        {
+          "slide": 4,
+          "id": "logo-simplicity-test",
+          "file": "assets/visuals/generated-m03-logo-simplicity-scale-test-v2.png",
+          "alt": "Design desk with one abstract logo concept repeated as progressively simpler and smaller physical proofs."
+        },
+        {
+          "slide": 5,
+          "id": "logo-variant-system",
+          "file": "assets/visuals/generated-m03-logo-variant-family-v2.png",
+          "alt": "Studio board displaying a coherent family of abstract stacked, horizontal and icon logo variants on blank applications."
+        }
+      ],
+      "qa": {
+        "imageFirstTheorySlides": "PASS — slides 3–5",
+        "paddedOverflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "renderedInspection": "PASS",
+        "finalVerdict": "PASS"
+      }
+    },
+    {
+      "module": 4,
+      "file": "resources/presentations/module-04-menu-information-design.pptx",
+      "bytes": 10499235,
+      "sha256": "9907bac3cfd7a31e105658c094cb86018d4b09c2923aa1dc0781e6326275b18f",
+      "slides": 8,
+      "notesParts": 8,
+      "finalRenders": 8,
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "id": "canteen-menu-source",
+          "file": "assets/source/drive-canteen-menu-wwhs.jpg",
+          "alt": "Full pink WWHS canteen menu with underlined section headings, two columns of product names, descriptions and aligned prices."
+        },
+        {
+          "slide": 4,
+          "id": "menu-scan-context",
+          "file": "assets/visuals/generated-menu-scan-context.png",
+          "alt": "Photographic canteen counter with matching wall and printed menus grouped under Mains, Sides and Drinks headings."
+        },
+        {
+          "slide": 5,
+          "id": "honest-product-information-check",
+          "file": "assets/visuals/generated-m04-honest-product-information-check-v2.png",
+          "alt": "Overhead menu-review workspace with a source image, blank verification tokens and separate hold-back cards."
+        }
+      ],
+      "qa": {
+        "imageFirstTheorySlides": "PASS — slides 3–5",
+        "paddedOverflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "renderedInspection": "PASS",
+        "finalVerdict": "PASS"
+      }
+    },
+    {
+      "module": 5,
+      "file": "resources/presentations/module-05-promotional-poster.pptx",
+      "bytes": 11587711,
+      "sha256": "7ff411f4d56e6a351716c2d65477fffce65f63f08c001e2eb9f74f08dd0c9533",
+      "slides": 8,
+      "notesParts": 8,
+      "finalRenders": 8,
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "id": "poster-source-original",
+          "file": "assets/source/drive-poster-original.png",
+          "alt": "Portrait orange-and-red Korean Burger poster with a large burger photograph, ten-dollar price, circular logo and Order Now button."
+        },
+        {
+          "slide": 4,
+          "id": "background-removal-edge-check",
+          "file": "assets/visuals/generated-m05-background-removal-edge-test-v2.png",
+          "alt": "Close-up design proof comparing the edge of a food image cut-out on light and dark test backgrounds."
+        },
+        {
+          "slide": 5,
+          "id": "poster-table-mockup-source",
+          "file": "assets/source/drive-poster-table-mockup.png",
+          "alt": "Korean Burger poster printed as a standing tabletop display against a warm brown wall with leaves and a rock nearby."
+        }
+      ],
+      "qa": {
+        "imageFirstTheorySlides": "PASS — slides 3–5",
+        "paddedOverflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "renderedInspection": "PASS",
+        "finalVerdict": "PASS"
+      }
+    },
+    {
+      "module": 6,
+      "file": "resources/presentations/module-06-brand-applications.pptx",
+      "bytes": 11297464,
+      "sha256": "6f768bcce4789c312a745818f91be32121a62590c08fd0c4471f31ecfc9d16fb",
+      "slides": 8,
+      "notesParts": 8,
+      "finalRenders": 8,
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "id": "brand-touchpoints",
+          "file": "assets/visuals/generated-brand-touchpoints.png",
+          "alt": "Studio photograph of a kraft takeaway bag, paper cup and wrapped food item using the same teal circle and orange striped-circle motif."
+        },
+        {
+          "slide": 4,
+          "id": "uniform-system",
+          "file": "assets/visuals/generated-uniform-system.png",
+          "alt": "Navy T-shirt, cap and apron on hangers, each carrying the same muted circular geometric motif."
+        },
+        {
+          "slide": 5,
+          "id": "accessibility-contrast-check",
+          "file": "assets/visuals/generated-m06-accessibility-suitability-test-v2.png",
+          "alt": "Brand application proofs shown at different sizes and contrast conditions beside neutral accessibility viewing tools."
+        }
+      ],
+      "qa": {
+        "imageFirstTheorySlides": "PASS — slides 3–5",
+        "paddedOverflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "renderedInspection": "PASS",
+        "finalVerdict": "PASS"
+      }
+    },
+    {
+      "module": 7,
+      "file": "resources/presentations/module-07-motion-advertising.pptx",
+      "bytes": 13950403,
+      "sha256": "706441a70eecf8ad7bb632d2347592f84eb721aa24225130517f40e79a64cda2",
+      "slides": 8,
+      "notesParts": 8,
+      "finalRenders": 8,
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "id": "motion-storyboard-workspace",
+          "file": "assets/visuals/generated-motion-storyboard-workspace.png",
+          "alt": "Overhead motion-planning table with a phone and three portrait storyboard cards showing the same food image changing position and scale."
+        },
+        {
+          "slide": 4,
+          "id": "match-move-continuity",
+          "file": "assets/visuals/generated-m07-match-move-correspondence-v2.png",
+          "alt": "Three physical storyboard frames showing the same abstract object changing position while retaining clear visual correspondence."
+        },
+        {
+          "slide": 5,
+          "id": "export-quality-check",
+          "file": "assets/visuals/generated-m07-motion-export-preflight-v2.png",
+          "alt": "Motion export preflight workspace with storyboard strips, an unlabeled playback screen and separate editable and output media tokens."
+        }
+      ],
+      "qa": {
+        "imageFirstTheorySlides": "PASS — slides 3–5",
+        "paddedOverflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "renderedInspection": "PASS",
+        "finalVerdict": "PASS"
+      }
+    },
+    {
+      "module": 8,
+      "file": "resources/presentations/module-08-ethical-marketing-systems.pptx",
+      "bytes": 14769175,
+      "sha256": "f63c91df9457c0fb876888db7c3e21f1d78a06e8d08dc8d4a2c207351e8f9346",
+      "slides": 8,
+      "notesParts": 8,
+      "finalRenders": 8,
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "id": "persuasion-evidence-ladder",
+          "file": "assets/visuals/generated-m08-honest-persuasion-comparison-v2.png",
+          "alt": "Side-by-side advertising mock-ups for the same invented product, one calm and evidence-led and one visually pressuring."
+        },
+        {
+          "slide": 4,
+          "id": "green-claim-audit",
+          "file": "assets/visuals/generated-green-claim-audit.png",
+          "alt": "Overhead audit table with a leaf-patterned takeaway box, material samples, blank claim and evidence cards, and a magnifier."
+        },
+        {
+          "slide": 5,
+          "id": "packaging-ripple-context",
+          "file": "assets/visuals/generated-packaging-ripple-context.png",
+          "alt": "Photographic takeaway workbench with a supplier carton, food box, delivery bag and used packaging tray sharing one geometric motif."
+        }
+      ],
+      "qa": {
+        "imageFirstTheorySlides": "PASS — slides 3–5",
+        "paddedOverflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "renderedInspection": "PASS",
+        "finalVerdict": "PASS"
+      }
+    },
+    {
+      "module": 9,
+      "file": "resources/presentations/module-09-web-portfolio.pptx",
+      "bytes": 11962459,
+      "sha256": "8a7d66506f153e65c1570de6c9121b3c6e9f1ef417aa4104f77874a6b5b2f8a7",
+      "slides": 8,
+      "notesParts": 8,
+      "finalRenders": 8,
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "id": "site-structure-map",
+          "file": "assets/visuals/generated-m09-site-structure-planning-v2.png",
+          "alt": "Tabletop site-planning cards labelled Home, Products and Contact Us connected to blank content thumbnails."
+        },
+        {
+          "slide": 4,
+          "id": "responsive-portfolio-check",
+          "file": "assets/visuals/generated-responsive-portfolio-check.png",
+          "alt": "Photographic desk with laptop and phone showing matching fictional fast-food portfolio pages labelled Home, Products and Contact."
+        },
+        {
+          "slide": 5,
+          "id": "publish-access-check",
+          "file": "assets/visuals/generated-m09-publish-access-test-v2.png",
+          "alt": "Four-device website release check showing distinct preview, publication, external access and handoff states without readable interface text."
+        }
+      ],
+      "qa": {
+        "imageFirstTheorySlides": "PASS — slides 3–5",
+        "paddedOverflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "renderedInspection": "PASS",
+        "finalVerdict": "PASS"
+      }
+    },
+    {
+      "module": 10,
+      "file": "resources/presentations/module-10-present-evaluate-improve.pptx",
+      "bytes": 14278939,
+      "sha256": "d75d0cf16d9bf5eca633c3da79e652a4d6b215da43b63edc710e46a9e033cf45",
+      "slides": 8,
+      "notesParts": 8,
+      "finalRenders": 8,
+      "theoryVisuals": [
+        {
+          "slide": 3,
+          "id": "peer-critique",
+          "file": "assets/visuals/generated-peer-critique.png",
+          "alt": "Overhead classroom table with several hands pointing to two abstract poster drafts, coloured feedback tabs and a blank criteria sheet."
+        },
+        {
+          "slide": 4,
+          "id": "design-rationale-evidence",
+          "file": "assets/visuals/generated-m10-design-rationale-evidence-v2.png",
+          "alt": "Design rationale desk with one selected brand proof, audience cards, comparison evidence and a blank explanation notebook."
+        },
+        {
+          "slide": 5,
+          "id": "evaluation-evidence-structure",
+          "file": "assets/visuals/generated-m10-evaluation-next-iteration-v2.png",
+          "alt": "Evaluation workspace with one selected brand proof, comparison photograph, neutral criteria tokens and one clearly revised next version."
+        }
+      ],
+      "qa": {
+        "imageFirstTheorySlides": "PASS — slides 3–5",
+        "paddedOverflowTest": "PASS",
+        "outOfCanvasElements": 0,
+        "sourcesNotes": "PASS — 8 of 8 populated [Sources] blocks",
+        "imageAltText": "PASS",
+        "renderedInspection": "PASS",
+        "finalVerdict": "PASS"
+      }
+    }
+  ],
+  "independentQa": {
+    "decksChecked": 10,
+    "slidesChecked": 80,
+    "finalRendersPresent": 80,
+    "theorySlidesChecked": 30,
+    "theoryImageObjects": 35,
+    "overflowFailures": 0,
+    "missingSourceNotes": 0,
+    "missingAltText": 0,
+    "oldDiagramTheoryReferences": 0
+  },
+  "overallVerdict": "PASS"
+}

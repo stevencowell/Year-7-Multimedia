@@ -1,0 +1,2264 @@
+{
+  "schemaVersion": "2.0",
+  "artifactId": "year-7-multimedia-current-visual-production-manifest",
+  "generated": "2026-08-24T00:00:00+10:00",
+  "candidate": {
+    "repository": "stevencowell/Year-7-Multimedia",
+    "baseCommit": "f9a03bd",
+    "state": "local working candidate; not committed, pushed, deployed or live-verified"
+  },
+  "target": {
+    "minimumDistinctQualifyingAssets": 32,
+    "maximumPlanningGuide": 45,
+    "state": "PASS — 32 deduplicated qualifying teaching assets"
+  },
+  "summary": {
+    "activeRecords": 33,
+    "countedTeachingAssets": 32,
+    "sourceImages": 5,
+    "generatedPhotographs": 27,
+    "presentationOnlyGeneratedPhotographs": 1,
+    "namedTheorySections": 30,
+    "imageFirstTheorySlides": 30,
+    "activeCodeNativeDiagrams": 0,
+    "videoPostersExcluded": 6
+  },
+  "reuseContract": "Reuse each approved theory image only on the matching module slide; keep linked demonstration posters subordinate to the theory photograph.",
+  "exclusions": [
+    "Video thumbnails and Drive posters",
+    "Decorative page identity and icons",
+    "Presentation render proofs and alternate crops",
+    "Superseded v1 SVG teaching diagrams, retained recoverably but filtered from the current runtime map"
+  ],
+  "visuals": [
+    {
+      "id": "audience-research-workspace",
+      "module": 1,
+      "section": "Users and target audiences",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-audience-research-workspace.png",
+      "learningPurpose": "Make audience research visible as comparison of needs, habits and preferences before brand decisions.",
+      "caption": "A privacy-safe audience-research workspace shows students sorting user-profile symbols and colour samples before choosing a brand direction.",
+      "noticePrompt": "Notice: Which visible choices help the group compare users rather than guess what everyone likes?",
+      "alt": "Overhead design table with several pairs of hands sorting simple audience-profile symbol cards, colour swatches and blank notes.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic overhead classroom design-research workspace; privacy-safe hands only; blank profile cards and swatches; no names, logos or pseudo-text.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2061861,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "B835A11DE9D1B6C54F300B970B0ED1AA60CF3D4B3E99092DFCBEEBC5354569C8"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-01.html",
+        "section": "Users and target audiences",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-audience-research-workspace.png"
+      },
+      "reuse": "May be reused in the matching Module 1 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-audience-research-workspace.png",
+        "bytes": 2061861,
+        "sha256": "b835a11de9d1b6c54f300b970b0ed1aa60cf3d4b3e99092dfcbeebc5354569c8",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-01.html",
+        "section": "Users and target audiences",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-01-the-design-challenge.pptx",
+          "slide": 1,
+          "role": "module opener"
+        },
+        {
+          "deck": "resources/presentations/module-01-the-design-challenge.pptx",
+          "slide": 4,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "moodboard-workspace",
+      "module": 2,
+      "section": "Hierarchy, layout and mood boards",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-moodboard-workspace.png",
+      "learningPurpose": "Show how colour, texture, type samples and imagery can form one coherent mood board.",
+      "caption": "A flat-lay mood board groups a restrained palette, food imagery, textures, letterforms and layout thumbnails into one direction.",
+      "noticePrompt": "Notice: Which repeated visual qualities make these different samples feel connected?",
+      "alt": "Overhead mood board with earthy swatches, paper textures, abstract letterforms, food photographs and layout thumbnails on a cutting mat.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source image used.",
+      "brief": "Photorealistic organised mood-board flat lay with safe stationery, abstract letterforms and no brands or readable copy.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2398416,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "B8595593A6BAABB3DD56E27F75BE059FCD0395221B720D819CEC38EF327AA80C"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-02.html",
+        "section": "Hierarchy, layout and mood boards",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-moodboard-workspace.png"
+      },
+      "reuse": "May be reused in the matching Module 2 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-moodboard-workspace.png",
+        "bytes": 2398416,
+        "sha256": "b8595593a6baabb3dd56e27f75be059fcd0395221b720d819cec38ef327aa80c",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-02.html",
+        "section": "Hierarchy, layout and mood boards",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-02-visual-language.pptx",
+          "slide": 1,
+          "role": "module opener"
+        },
+        {
+          "deck": "resources/presentations/module-02-visual-language.pptx",
+          "slide": 5,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "canteen-menu-source",
+      "module": 4,
+      "section": "Grouping and information architecture",
+      "type": "source-image",
+      "src": "assets/source/drive-canteen-menu-wwhs.jpg",
+      "learningPurpose": "Provide an authentic source example for analysing grouping, headings, price alignment and scanning.",
+      "caption": "The supplied WWHS canteen menu is used only as an information-design example; its products and prices may be historical.",
+      "noticePrompt": "Notice: How do headings, columns and aligned prices help you find and compare information?",
+      "alt": "Full pink WWHS canteen menu with underlined section headings, two columns of product names, descriptions and aligned prices.",
+      "provenance": "Authorised Drive source `Canteen Menu WWHS.jpg`, ID 13ive02RO-0Ejmm1AEXgo69uUk8wGJ822; original bytes preserved.",
+      "brief": "Use the complete uncropped source for layout analysis only; do not republish products or prices as current facts.",
+      "rightsUse": "Teacher-authorised Drive source; preserve provenance and do not imply broader licensing.",
+      "width": 1241,
+      "height": 1755,
+      "bytes": 1349921,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "2348BBD07604F902E9D108A54410AB6482B47D64A921FDD7732993F31172F4D1"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-04.html",
+        "section": "Grouping and information architecture",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/source/drive-canteen-menu-wwhs.jpg"
+      },
+      "reuse": "May be reused in the matching Module 4 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/source/drive-canteen-menu-wwhs.jpg",
+        "bytes": 1349921,
+        "sha256": "2348bbd07604f902e9d108a54410ab6482b47d64a921fdd7732993f31172f4d1",
+        "pixelDimensions": {
+          "width": 1241,
+          "height": 1755
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-04.html",
+        "section": "Grouping and information architecture",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-04-menu-information-design.pptx",
+          "slide": 1,
+          "role": "module opener"
+        },
+        {
+          "deck": "resources/presentations/module-04-menu-information-design.pptx",
+          "slide": 3,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "poster-source-original",
+      "module": 5,
+      "section": "Composition and focal point",
+      "type": "source-image",
+      "src": "assets/source/drive-poster-original.png",
+      "learningPurpose": "Provide the complete teacher-supplied poster for analysis of hierarchy, focal point, price, identity and call to action.",
+      "caption": "The supplied Korean Burger poster combines brand name, product image, price, logo and an Order Now call to action.",
+      "noticePrompt": "Notice: Trace the first three things your eye notices. Which size, position or contrast choice creates that order?",
+      "alt": "Portrait orange-and-red Korean Burger poster with a large burger photograph, ten-dollar price, circular logo and Order Now button.",
+      "provenance": "Authorised Drive source `1.png`, ID 15TN4IA_A8hVyi8y6pJm1FQLt8sgVC6lF; original bytes preserved.",
+      "brief": "Present the complete uncropped exemplar and analyse visible design decisions only.",
+      "rightsUse": "Teacher-authorised Drive source; preserve provenance and do not imply broader licensing.",
+      "width": 1414,
+      "height": 2000,
+      "bytes": 1899467,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "2E850274FFE76E0718BD67467502A20702BF0CBE47330F8D147C479A1EDAA13B"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-05.html",
+        "section": "Composition and focal point",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/source/drive-poster-original.png"
+      },
+      "reuse": "May be reused in the matching Module 5 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/source/drive-poster-original.png",
+        "bytes": 1899467,
+        "sha256": "2e850274ffe76e0718bd67467502a20702bf0cbe47330f8d147c479a1edaa13b",
+        "pixelDimensions": {
+          "width": 1414,
+          "height": 2000
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-05.html",
+        "section": "Composition and focal point",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-05-promotional-poster.pptx",
+          "slide": 3,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "poster-table-mockup-source",
+      "module": 5,
+      "section": "Calls to action and mock-ups",
+      "type": "source-image",
+      "src": "assets/source/drive-poster-table-mockup.png",
+      "learningPurpose": "Show how perspective, scale and environment affect poster legibility in a tabletop display.",
+      "caption": "The supplied tabletop mock-up tests the same poster under perspective, distance and warm lighting.",
+      "noticePrompt": "Notice: Compared with the flat poster, which small details are now harder to read?",
+      "alt": "Korean Burger poster printed as a standing tabletop display against a warm brown wall with leaves and a rock nearby.",
+      "provenance": "Authorised Drive source `2.png`, ID 1HcPYwQWU8hwUQIvwTrbelmv1Oht34-bQ; original bytes preserved.",
+      "brief": "Use as a labelled context view; keep separate from the full original and provide Open larger.",
+      "rightsUse": "Teacher-authorised Drive source; preserve provenance and do not imply broader licensing.",
+      "width": 1414,
+      "height": 2000,
+      "bytes": 1340556,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "FBEB670B71628455EC4185ADE7C136AA82529ACB5EF3390D8199C861CB42A219"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-05.html",
+        "section": "Calls to action and mock-ups",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/source/drive-poster-table-mockup.png"
+      },
+      "reuse": "May be reused in the matching Module 5 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/source/drive-poster-table-mockup.png",
+        "bytes": 1340556,
+        "sha256": "fbeb670b71628455ec4185ade7c136aa82529acb5ef3390d8199c861cb42a219",
+        "pixelDimensions": {
+          "width": 1414,
+          "height": 2000
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-05.html",
+        "section": "Calls to action and mock-ups",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-05-promotional-poster.pptx",
+          "slide": 5,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "poster-outdoor-mockup-source",
+      "module": 5,
+      "section": "Calls to action and mock-ups",
+      "type": "source-image",
+      "src": "assets/source/drive-poster-outdoor-mockup.png",
+      "learningPurpose": "Test poster hierarchy and recognition in an outdoor shelter display.",
+      "caption": "The supplied outdoor mock-up shows the poster at distance inside a framed public display.",
+      "noticePrompt": "Notice: Which brand elements remain recognisable before the smaller call to action can be read?",
+      "alt": "Korean Burger poster displayed in a large framed outdoor shelter panel beside brick, stone and metal structures.",
+      "provenance": "Authorised Drive source `3.png`, ID 1XwNIF0j57yjphJKc6vIuLSfkGIhQOZbc; original bytes preserved.",
+      "brief": "Use as a labelled context view; keep the whole display and provide Open larger.",
+      "rightsUse": "Teacher-authorised Drive source; preserve provenance and do not imply broader licensing.",
+      "width": 1414,
+      "height": 2000,
+      "bytes": 4467911,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "0CB3EB166EF36418C305E6EC949BA45BAABED847CEB408316586EC06883BAD83"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-05.html",
+        "section": "Calls to action and mock-ups",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/source/drive-poster-outdoor-mockup.png"
+      },
+      "reuse": "May be reused in the matching Module 5 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/source/drive-poster-outdoor-mockup.png",
+        "bytes": 4467911,
+        "sha256": "0cb3eb166ef36418c305e6ec949ba45baabed847ceb408316586ec06883bad83",
+        "pixelDimensions": {
+          "width": 1414,
+          "height": 2000
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-05.html",
+        "section": "Calls to action and mock-ups",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-05-promotional-poster.pptx",
+          "slide": 1,
+          "role": "module opener"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "poster-street-mockup-source",
+      "module": 5,
+      "section": "Calls to action and mock-ups",
+      "type": "source-image",
+      "src": "assets/source/drive-poster-street-mockup.png",
+      "learningPurpose": "Test poster visibility, reflection and contrast in a street advertising setting.",
+      "caption": "The supplied street mock-up places the poster behind glass beside a road and city buildings.",
+      "noticePrompt": "Notice: Which parts stay clear despite reflections and the busy surroundings?",
+      "alt": "Korean Burger poster behind glass in a black street advertising panel beside a curved road and city buildings.",
+      "provenance": "Authorised Drive source `4.png`, ID 1xikLjbdDipDPon_9RxxE7K8hgJKMxp7U; original bytes preserved.",
+      "brief": "Use as a labelled context view; preserve the full scene and provide Open larger.",
+      "rightsUse": "Teacher-authorised Drive source; preserve provenance and do not imply broader licensing.",
+      "width": 1414,
+      "height": 2000,
+      "bytes": 4299339,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "7B3110AD31E3213F403638AF01F6F23DA5B2BFC05E34A30C125497786A5388A0"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-05.html",
+        "section": "Calls to action and mock-ups",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/source/drive-poster-street-mockup.png"
+      },
+      "reuse": "May be reused in the matching Module 5 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/source/drive-poster-street-mockup.png",
+        "bytes": 4299339,
+        "sha256": "7b3110ad31e3213f403638af01f6f23da5b2bfc05e34a30c125497786a5388a0",
+        "pixelDimensions": {
+          "width": 1414,
+          "height": 2000
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-05.html",
+        "section": "Calls to action and mock-ups",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "not reused in presentation",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "brand-touchpoints",
+      "module": 6,
+      "section": "Consistent identity",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-brand-touchpoints.png",
+      "learningPurpose": "Make consistency visible across packaging shapes with one fictional motif.",
+      "caption": "Three unbranded takeaway touchpoints carry the same geometric motif, showing controlled identity across different forms.",
+      "noticePrompt": "Notice: Which features repeat exactly, and which placement decisions adapt to each object?",
+      "alt": "Studio photograph of a kraft takeaway bag, paper cup and wrapped food item using the same teal circle and orange striped-circle motif.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no brand or source image used.",
+      "brief": "Photorealistic fictional packaging touchpoints with one original geometric two-colour motif; no words or real brands.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1767243,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "C2A7EE7B8F3ED6C5C3E626D50D7E4BDC5251A466469719559630F2110221C60C"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-06.html",
+        "section": "Consistent identity",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-brand-touchpoints.png"
+      },
+      "reuse": "May be reused in the matching Module 6 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-brand-touchpoints.png",
+        "bytes": 1767243,
+        "sha256": "c2a7ee7b8f3ed6c5c3e626d50d7e4bdc5251a466469719559630f2110221c60c",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-06.html",
+        "section": "Consistent identity",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-06-brand-applications.pptx",
+          "slide": 1,
+          "role": "module opener"
+        },
+        {
+          "deck": "resources/presentations/module-06-brand-applications.pptx",
+          "slide": 3,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "uniform-system",
+      "module": 6,
+      "section": "Designing a staff uniform",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-uniform-system.png",
+      "learningPurpose": "Provide a privacy-safe physical comparison of consistent motif placement on uniform items.",
+      "caption": "A T-shirt, cap and apron repeat one restrained motif while adapting its scale and placement to each garment.",
+      "noticePrompt": "Notice: Which placement remains visible without interfering with the garment’s practical use?",
+      "alt": "Navy T-shirt, cap and apron on hangers, each carrying the same muted circular geometric motif.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no student, crest or source image used.",
+      "brief": "Photorealistic full garments on hangers with consistent fictional motif; no people, text, brands or school crest.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1563987,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "54ED03D0DC69D300286C22B9777D7456BB94DB481CC8A79C1DEA4E363E85EB9E"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-06.html",
+        "section": "Designing a staff uniform",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-uniform-system.png"
+      },
+      "reuse": "May be reused in the matching Module 6 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-uniform-system.png",
+        "bytes": 1563987,
+        "sha256": "54ed03d0dc69d300286c22b9777d7456bb94db481cc8a79c1dea4e363e85eb9e",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-06.html",
+        "section": "Designing a staff uniform",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-06-brand-applications.pptx",
+          "slide": 4,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "peer-critique",
+      "module": 10,
+      "section": "Success criteria and feedback",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-peer-critique.png",
+      "learningPurpose": "Show respectful, evidence-based comparison of two design drafts without identifiable students.",
+      "caption": "A privacy-safe critique uses feedback tabs and a blank criteria card to compare hierarchy and contrast across two fictional posters.",
+      "noticePrompt": "Notice: Which comments point to visible evidence rather than personal taste?",
+      "alt": "Overhead classroom table with several hands pointing to two abstract poster drafts, coloured feedback tabs and a blank criteria sheet.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic overhead critique with privacy-safe hands, abstract drafts and no names, readable copy or school logos.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2316497,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "887C727FB8E81BA5771B8703D20EA4073CBB5DFE1792E27B475C6482A5FEFF27"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-10.html",
+        "section": "Success criteria and feedback",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-peer-critique.png"
+      },
+      "reuse": "May be reused in the matching Module 10 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-peer-critique.png",
+        "bytes": 2316497,
+        "sha256": "887c727fb8e81ba5771b8703d20ea4073cbb5dfe1792e27b475c6482a5feff27",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-10.html",
+        "section": "Success criteria and feedback",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-10-present-evaluate-improve.pptx",
+          "slide": 1,
+          "role": "module opener"
+        },
+        {
+          "deck": "resources/presentations/module-10-present-evaluate-improve.pptx",
+          "slide": 3,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "design-brief-planning-workspace",
+      "module": 1,
+      "section": "Problem, purpose and brief",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-design-brief-planning-workspace.png",
+      "learningPurpose": "Make the relationship between purpose, audience, constraints and intended outputs visible before design production begins.",
+      "caption": "A fictional planning workspace separates purpose, audience, constraints and intended outputs before sketches become finished media.",
+      "noticePrompt": "Notice: Which part of the brief would stop a polished idea from drifting away from its audience and purpose?",
+      "alt": "Overhead design table with a four-part brief sheet, thumbnail wireframes, an audience card, colour swatches and a checklist.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic overhead design-brief workspace with purpose, audience, constraints and intended-output regions, privacy-safe hands and no identifying information.",
+      "rightsUse": "Project-created fictional educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2050387,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "19130015D79007A64DB461D0A39EEA0BA15D8B23ACDE4848B031B70B8EA993C1"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-01.html",
+        "section": "Problem, purpose and brief",
+        "region": "adjacent photographic example"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-design-brief-planning-workspace.png"
+      },
+      "reuse": "May be reused in the matching Module 1 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-design-brief-planning-workspace.png",
+        "bytes": 2050387,
+        "sha256": "19130015d79007a64db461d0a39eea0ba15d8b23acde4848b031b70b8ea993c1",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-01.html",
+        "section": "Problem, purpose and brief",
+        "region": "adjacent photographic example"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-01-the-design-challenge.pptx",
+          "slide": 3,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "brand-direction-comparison",
+      "module": 2,
+      "section": "Colour and meaning",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-brand-direction-comparison.png",
+      "learningPurpose": "Show how colour works with shape and spacing to create two deliberately different brand impressions.",
+      "caption": "Two fictional brand directions combine warm angular energy or cool rounded calm across signs and packaging.",
+      "noticePrompt": "Notice: How do colour, shape and spacing work together to change the first impression?",
+      "alt": "Side-by-side photographic brand boards with warm red angular packaging on the left and cool teal rounded packaging on the right.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic matched comparison of two fictional fast-food brand directions using contrasting palettes, shapes and spacing without readable text.",
+      "rightsUse": "Project-created fictional educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2016920,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "7D5FE4D30622E0A73C94DFFBA8316F6D3575D7E1A92B5810823A48D4FA18DCFB"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-02.html",
+        "section": "Colour and meaning",
+        "region": "adjacent photographic comparison"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-brand-direction-comparison.png"
+      },
+      "reuse": "May be reused in the matching Module 2 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-brand-direction-comparison.png",
+        "bytes": 2016920,
+        "sha256": "7d5fe4d30622e0a73c94dffba8316f6d3575d7e1a92b5810823a48d4fa18dcfb",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-02.html",
+        "section": "Colour and meaning",
+        "region": "adjacent photographic comparison"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-02-visual-language.pptx",
+          "slide": 3,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "logo-scale-context",
+      "module": 3,
+      "section": "Symbols and recognition",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-logo-scale-context.png",
+      "learningPurpose": "Demonstrate that one simple mark must remain recognisable across very different sizes and applications.",
+      "caption": "The same fictional two-shape mark remains consistent on a large sign, medium cup and small app tile.",
+      "noticePrompt": "Notice: Which details survive at the smallest size, and which extra detail would become a problem?",
+      "alt": "Photographic takeaway mock-up showing the same black, orange and white geometric mark on a wall sign, cup and small app tile.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic fictional logo motif shown consistently at large, medium and small scales with no words or real brands.",
+      "rightsUse": "Project-created fictional educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1448536,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "A4468F2DB31F2F9A58BD25D9383792D4FE875902EF6211A23C38D08E7A082378"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-03.html",
+        "section": "Symbols and recognition",
+        "region": "adjacent photographic example"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-logo-scale-context.png"
+      },
+      "reuse": "May be reused in the matching Module 3 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-logo-scale-context.png",
+        "bytes": 1448536,
+        "sha256": "a4468f2db31f2f9a58bd25d9383792d4fe875902ef6211a23c38d08e7a082378",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-03.html",
+        "section": "Symbols and recognition",
+        "region": "adjacent photographic example"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-03-logo-systems.pptx",
+          "slide": 3,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "menu-scan-context",
+      "module": 4,
+      "section": "Readability and scanning",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-menu-scan-context.png",
+      "learningPurpose": "Show how grouping, alignment and spacing support fast scanning in a realistic counter context.",
+      "caption": "A fictional wall menu and matching counter card repeat the same three category bands without presenting current products or prices.",
+      "noticePrompt": "Notice: Where does your eye begin, and how do the aligned rows help it move through each group?",
+      "alt": "Photographic canteen counter with matching wall and printed menus grouped under Mains, Sides and Drinks headings.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic fictional menu board and printed card using the exact headings Mains, Sides and Drinks, with blank item lines and no prices.",
+      "rightsUse": "Project-created fictional educational asset; no current menu claims, external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1802591,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "BBD4F9E29511AE84C25C15D2C8867F0F25730F1209957BB420147A4E6F65BCB5"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-04.html",
+        "section": "Readability and scanning",
+        "region": "adjacent photographic example"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-menu-scan-context.png"
+      },
+      "reuse": "May be reused in the matching Module 4 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-menu-scan-context.png",
+        "bytes": 1802591,
+        "sha256": "bbd4f9e29511ae84c25c15d2c8867f0f25730f1209957bb420147a4e6f65bcb5",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-04.html",
+        "section": "Readability and scanning",
+        "region": "adjacent photographic example"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-04-menu-information-design.pptx",
+          "slide": 4,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "motion-storyboard-workspace",
+      "module": 7,
+      "section": "Frames, states and transitions",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-motion-storyboard-workspace.png",
+      "learningPurpose": "Make purposeful motion visible as planned changes in position and scale across connected states.",
+      "caption": "Three physical storyboard states keep the same image and motif while changing scale and position in a controlled sequence.",
+      "noticePrompt": "Notice: Which elements stay constant, and what two properties change from the first state to the last?",
+      "alt": "Overhead motion-planning table with a phone and three portrait storyboard cards showing the same food image changing position and scale.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic motion storyboard workspace with one consistent fictional food advertisement across three states and no readable text.",
+      "rightsUse": "Project-created fictional educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2345901,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "1BDA64F81663A8BD6525B02DF727FCB7710752018B4C01BCBC394E38D869C819"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-07.html",
+        "section": "Frames, states and transitions",
+        "region": "adjacent photographic sequence"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-motion-storyboard-workspace.png"
+      },
+      "reuse": "May be reused in the matching Module 7 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-motion-storyboard-workspace.png",
+        "bytes": 2345901,
+        "sha256": "1bda64f81663a8bd6525b02df727fcb7710752018b4c01bcbc394e38d869c819",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-07.html",
+        "section": "Frames, states and transitions",
+        "region": "adjacent photographic sequence"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-07-motion-advertising.pptx",
+          "slide": 1,
+          "role": "module opener"
+        },
+        {
+          "deck": "resources/presentations/module-07-motion-advertising.pptx",
+          "slide": 3,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "green-claim-audit",
+      "module": 8,
+      "section": "Greenwashing and truth",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-green-claim-audit.png",
+      "learningPurpose": "Separate a green-looking visual treatment from the evidence needed to support an environmental claim.",
+      "caption": "A fictional green package sits apart from the material sample, claim card and evidence card that would need checking.",
+      "noticePrompt": "Notice: Which features merely suggest an environmental benefit, and which separate items could provide testable evidence?",
+      "alt": "Overhead audit table with a leaf-patterned takeaway box, material samples, blank claim and evidence cards, and a magnifier.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic ethical-claim audit separating green visual suggestion, material samples, a claim card and evidence card without making a real claim.",
+      "rightsUse": "Project-created fictional educational asset; no certification mark, environmental claim, external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2444209,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "4A77BB320C9C09D195FDC2D2D8F69EFAD59AB728B49787F34025E9453B4B0930"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-08.html",
+        "section": "Greenwashing and truth",
+        "region": "adjacent photographic analysis"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-green-claim-audit.png"
+      },
+      "reuse": "May be reused in the matching Module 8 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-green-claim-audit.png",
+        "bytes": 2444209,
+        "sha256": "4a77bb320c9c09d195fdc2d2d8f69efad59ab728b49787f34025e9453b4b0930",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-08.html",
+        "section": "Greenwashing and truth",
+        "region": "adjacent photographic analysis"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-08-ethical-marketing-systems.pptx",
+          "slide": 1,
+          "role": "module opener"
+        },
+        {
+          "deck": "resources/presentations/module-08-ethical-marketing-systems.pptx",
+          "slide": 4,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "packaging-ripple-context",
+      "module": 8,
+      "section": "Ripple effects and designer responsibility",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-packaging-ripple-context.png",
+      "learningPurpose": "Show how one packaging identity and material decision appears across supply, service, delivery and end-of-use handling.",
+      "caption": "One fictional packaging system appears on a supplier carton, service pack, delivery bag and end-of-use sorting tray.",
+      "noticePrompt": "Notice: Which parts of the business would have to change if the package material or printed design changed?",
+      "alt": "Photographic takeaway workbench with a supplier carton, food box, delivery bag and used packaging tray sharing one geometric motif.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic packaging system shown across supplier, service, delivery and end-of-use contexts without environmental claims or readable text.",
+      "rightsUse": "Project-created fictional educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1985306,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "DD72D967CEEE2C6303586DEBEA8B1B24C60ABF1F148E1FED5EC3B859FCD7A60A"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-08.html",
+        "section": "Ripple effects and designer responsibility",
+        "region": "adjacent photographic system example"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-packaging-ripple-context.png"
+      },
+      "reuse": "May be reused in the matching Module 8 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-packaging-ripple-context.png",
+        "bytes": 1985306,
+        "sha256": "dd72d967ceee2c6303586debea8b1b24c60abf1f148e1fed5ec3b859fcd7a60a",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-08.html",
+        "section": "Ripple effects and designer responsibility",
+        "region": "adjacent photographic system example"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-08-ethical-marketing-systems.pptx",
+          "slide": 5,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "responsive-portfolio-check",
+      "module": 9,
+      "section": "Preparing and embedding media",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-responsive-portfolio-check.png",
+      "learningPurpose": "Show that the same portfolio media and navigation must remain clear across desktop and phone layouts.",
+      "caption": "The same fictional portfolio keeps its identity, navigation and media hierarchy when the layout changes from laptop to phone.",
+      "noticePrompt": "Notice: What stays consistent across both screens, and what changes to make the smaller view easier to use?",
+      "alt": "Photographic desk with laptop and phone showing matching fictional fast-food portfolio pages labelled Home, Products and Contact.",
+      "provenance": "AI-generated with the built-in image tool on 24 August 2026; no source or student image used; a rejected text-error variant was not retained in the course.",
+      "brief": "Photorealistic laptop and phone comparison of the same fictional three-page portfolio with only Home, Products and Contact labels and no account interface.",
+      "rightsUse": "Project-created fictional educational asset; no account details, external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1776587,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "9F8885589B79B64F98745116A4F8F319A81877B034DA954EAAA1A84F4F2CAB6B"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-09.html",
+        "section": "Preparing and embedding media",
+        "region": "adjacent photographic comparison"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-responsive-portfolio-check.png"
+      },
+      "reuse": "May be reused in the matching Module 9 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-responsive-portfolio-check.png",
+        "bytes": 1776587,
+        "sha256": "9f8885589b79b64f98745116a4f8f319a81877b034da954eaaa1a84f4f2cab6b",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-09.html",
+        "section": "Preparing and embedding media",
+        "region": "adjacent photographic comparison"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-09-web-portfolio.pptx",
+          "slide": 4,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "responsible-ai-filter",
+      "module": 1,
+      "section": "Original ideas and responsible AI",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m01-responsible-ai-decision-trail-v2.png",
+      "learningPurpose": "Make the checking, transformation and ownership decisions around responsible AI visibly traceable.",
+      "caption": "A decision trail helps students keep AI-assisted ideas traceable, transformed and genuinely their own.",
+      "noticePrompt": "Notice: Which steps show a student checking, changing and taking responsibility for an idea?",
+      "alt": "Overhead design workspace with blank source-check cards, hand-developed alternatives and decision tokens arranged as a responsible AI trail.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 overhead school design-studio workspace showing blank source-check cards, several visibly transformed hand-developed concept pieces and decision tokens; privacy-safe hands only; no readable text, logos, interface screenshots or finished student work.",
+      "generationPrompt": "Photorealistic 16:9 overhead school design-studio workspace showing blank source-check cards, several visibly transformed hand-developed concept pieces and decision tokens; privacy-safe hands only; no readable text, logos, interface screenshots or finished student work.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2316499,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "D79B1A6B874A48BD012897C23016D08145F7F7A519870020CB57747D073C0A46"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-01.html",
+        "section": "Original ideas and responsible AI",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m01-responsible-ai-decision-trail-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 1 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m01-responsible-ai-decision-trail-v2.png",
+        "bytes": 2316499,
+        "sha256": "d79b1a6b874a48bd012897c23016d08145f7f7a519870020cb57747d073c0a46",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-01.html",
+        "section": "Original ideas and responsible AI",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-01-the-design-challenge.pptx",
+          "slide": 5,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "typography-tone-comparison",
+      "module": 2,
+      "section": "Typography and tone",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m02-typography-tone-proof-v3.png",
+      "learningPurpose": "Compare type personality, hierarchy and readability as one connected proofing decision.",
+      "caption": "Two proof sheets show that type tone and readability must be judged together at the intended size.",
+      "noticePrompt": "Notice: Compare the personality of the letterforms, then check spacing, contrast and scanability.",
+      "alt": "Overhead studio photograph of two clean typography proof sheets, colour chips, fabric samples and optical viewing tools.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 overhead design-studio photograph with two clean typography proof sheets, deliberate large M and A letterform examples, grey non-readable layout marks, colour chips and optical viewing tools; no pseudo-words, labels, numerals, logos or people.",
+      "generationPrompt": "Photorealistic 16:9 overhead design-studio photograph with two clean typography proof sheets, deliberate large M and A letterform examples, grey non-readable layout marks, colour chips and optical viewing tools; no pseudo-words, labels, numerals, logos or people.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2204800,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "CC9F944803906B3E0E2462BB08C7751501C07FAFB1944F36B97F6FB40C6C875D"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-02.html",
+        "section": "Typography and tone",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m02-typography-tone-proof-v3.png"
+      },
+      "reuse": "May be reused on the matching Module 2 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m02-typography-tone-proof-v3.png",
+        "bytes": 2204800,
+        "sha256": "cc9f944803906b3e0e2462bb08c7751501c07fafb1944f36b97f6fb40c6c875d",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-02.html",
+        "section": "Typography and tone",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-02-visual-language.pptx",
+          "slide": 4,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "logo-simplicity-test",
+      "module": 3,
+      "section": "Scale, contrast and simplicity",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m03-logo-simplicity-scale-test-v2.png",
+      "learningPurpose": "Show why a logo core must survive simplification, reduction and low-detail use.",
+      "caption": "A logo earns simplicity when its recognisable core survives reduction and small-scale use.",
+      "noticePrompt": "Notice: Which details disappear first, and which shape still carries recognition?",
+      "alt": "Design desk with one abstract logo concept repeated as progressively simpler and smaller physical proofs.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 design desk showing one original abstract non-branded logo concept, simplified physical cut-paper versions and small-scale print tests; no readable text, real logos, brand names or interface screenshots.",
+      "generationPrompt": "Photorealistic 16:9 design desk showing one original abstract non-branded logo concept, simplified physical cut-paper versions and small-scale print tests; no readable text, real logos, brand names or interface screenshots.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2344438,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "00025EF14CF4D311BDEA92C78D61AFC9AC08430D13C34F1EFC9061767C293C2F"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-03.html",
+        "section": "Scale, contrast and simplicity",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m03-logo-simplicity-scale-test-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 3 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m03-logo-simplicity-scale-test-v2.png",
+        "bytes": 2344438,
+        "sha256": "00025ef14cf4d311bdea92c78d61afc9ac08430d13c34f1efc9061767c293c2f",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-03.html",
+        "section": "Scale, contrast and simplicity",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-03-logo-systems.pptx",
+          "slide": 4,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "logo-variant-system",
+      "module": 3,
+      "section": "Logo variants and critique",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m03-logo-variant-family-v2.png",
+      "learningPurpose": "Show controlled adaptation of one identity across different formats without losing recognition.",
+      "caption": "Controlled variants adapt one identity without losing its core shape and colour relationships.",
+      "noticePrompt": "Notice: Find the elements that stay stable across the stacked, horizontal and icon applications.",
+      "alt": "Studio board displaying a coherent family of abstract stacked, horizontal and icon logo variants on blank applications.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 branding studio board with a coherent non-branded abstract symbol adapted as stacked, horizontal and icon variants across blank applications; consistent core shape and colour roles; no readable text, real logos or trademarks.",
+      "generationPrompt": "Photorealistic 16:9 branding studio board with a coherent non-branded abstract symbol adapted as stacked, horizontal and icon variants across blank applications; consistent core shape and colour roles; no readable text, real logos or trademarks.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2524427,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "D917742F1F6A07633E7A459438CF975788247032ABEC287CB679EF0C347B5DBF"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-03.html",
+        "section": "Logo variants and critique",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m03-logo-variant-family-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 3 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m03-logo-variant-family-v2.png",
+        "bytes": 2524427,
+        "sha256": "d917742f1f6a07633e7a459438cf975788247032abec287cb679ef0c347b5dbf",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-03.html",
+        "section": "Logo variants and critique",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-03-logo-systems.pptx",
+          "slide": 5,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "honest-product-information-check",
+      "module": 4,
+      "section": "Honest product information",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m04-honest-product-information-check-v2.png",
+      "learningPurpose": "Separate confirmed menu information from details that are uncertain, outdated or unsupported.",
+      "caption": "A menu information check separates verified product details from uncertain or unsupported claims.",
+      "noticePrompt": "Notice: Which information can be used now, and which detail must be confirmed or withheld?",
+      "alt": "Overhead menu-review workspace with a source image, blank verification tokens and separate hold-back cards.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 overhead menu-review workspace with a generic menu source, blank verification tokens, separate hold-back cards and a neutral checking tray; no readable prices, product claims, brand names or pseudo-text.",
+      "generationPrompt": "Photorealistic 16:9 overhead menu-review workspace with a generic menu source, blank verification tokens, separate hold-back cards and a neutral checking tray; no readable prices, product claims, brand names or pseudo-text.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2358158,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "3CF91E1CB35832D46074F1632A52192A48C0DA5FFCF8F1831120CDD222367152"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-04.html",
+        "section": "Honest product information",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m04-honest-product-information-check-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 4 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m04-honest-product-information-check-v2.png",
+        "bytes": 2358158,
+        "sha256": "3cf91e1cb35832d46074f1632a52192a48c0da5ffcf8f1831120cdd222367152",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-04.html",
+        "section": "Honest product information",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-04-menu-information-design.pptx",
+          "slide": 5,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "background-removal-edge-check",
+      "module": 5,
+      "section": "Image selection and background removal",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m05-background-removal-edge-test-v2.png",
+      "learningPurpose": "Make edge quality, colour spill and believable placement visible after background removal.",
+      "caption": "Background removal succeeds only when the subject edge still looks believable in its new context.",
+      "noticePrompt": "Notice: Inspect fine edges, shadows and colour spill before accepting the cut-out.",
+      "alt": "Close-up design proof comparing the edge of a food image cut-out on light and dark test backgrounds.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 studio edge-check scene with the same generic food-image cut-out tested on light and dark backgrounds under a magnifier, showing fine edges and natural shadows; no readable text, logos or software interface.",
+      "generationPrompt": "Photorealistic 16:9 studio edge-check scene with the same generic food-image cut-out tested on light and dark backgrounds under a magnifier, showing fine edges and natural shadows; no readable text, logos or software interface.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2472691,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "A9B6231BC324BC128857B4235F1307E02D243B4E63AC7849713953B6BAD15F9E"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-05.html",
+        "section": "Image selection and background removal",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m05-background-removal-edge-test-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 5 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m05-background-removal-edge-test-v2.png",
+        "bytes": 2472691,
+        "sha256": "a9b6231bc324bc128857b4235f1307e02d243b4e63ac7849713953b6bad15f9e",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-05.html",
+        "section": "Image selection and background removal",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-05-promotional-poster.pptx",
+          "slide": 4,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "accessibility-contrast-check",
+      "module": 6,
+      "section": "Checking suitability and accessibility",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m06-accessibility-suitability-test-v2.png",
+      "learningPurpose": "Compare identity recognition at real size, under different contrast and without relying on colour alone.",
+      "caption": "Suitability checks compare the same brand application at real size, in contrast and without colour alone.",
+      "noticePrompt": "Notice: Can the identity still be recognised when size, contrast or colour perception changes?",
+      "alt": "Brand application proofs shown at different sizes and contrast conditions beside neutral accessibility viewing tools.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 accessibility proofing workspace showing one invented brand application at different sizes, high and low contrast, colour and monochrome conditions with viewing tools; no readable text, real logos, people or interface screenshots.",
+      "generationPrompt": "Photorealistic 16:9 accessibility proofing workspace showing one invented brand application at different sizes, high and low contrast, colour and monochrome conditions with viewing tools; no readable text, real logos, people or interface screenshots.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2201540,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "1DD41D599CECE2639D288F14857439FF860F5F6A2387A798089C2A4D85237AC8"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-06.html",
+        "section": "Checking suitability and accessibility",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m06-accessibility-suitability-test-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 6 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m06-accessibility-suitability-test-v2.png",
+        "bytes": 2201540,
+        "sha256": "1dd41d599cece2639d288f14857439ff860f5f6a2387a798089c2a4d85237ac8",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-06.html",
+        "section": "Checking suitability and accessibility",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-06-brand-applications.pptx",
+          "slide": 5,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "match-move-continuity",
+      "module": 7,
+      "section": "Match and Move",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m07-match-move-correspondence-v2.png",
+      "learningPurpose": "Make continuity between animation states visible through matched objects, positions and colour relationships.",
+      "caption": "Match and Move works when the viewer can track the same element from one state into the next.",
+      "noticePrompt": "Notice: Which object, position or colour relationship creates continuity across the frames?",
+      "alt": "Three physical storyboard frames showing the same abstract object changing position while retaining clear visual correspondence.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 motion-design desk with three large physical storyboard frames showing the same abstract object moving and transforming while matching position, shape and colour cues; no readable text, software interface, people or brand marks.",
+      "generationPrompt": "Photorealistic 16:9 motion-design desk with three large physical storyboard frames showing the same abstract object moving and transforming while matching position, shape and colour cues; no readable text, software interface, people or brand marks.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2440767,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "2AD4CF48949A0F32083C09247C914D3B3DD16AD3A97A29B539A667E5C0BB9C7B"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-07.html",
+        "section": "Match and Move",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m07-match-move-correspondence-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 7 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m07-match-move-correspondence-v2.png",
+        "bytes": 2440767,
+        "sha256": "2ad4cf48949a0f32083c09247c914d3b3dd16ad3a97a29b539a667e5c0bb9c7b",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-07.html",
+        "section": "Match and Move",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-07-motion-advertising.pptx",
+          "slide": 4,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "export-quality-check",
+      "module": 7,
+      "section": "Timing, export and quality checks",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m07-motion-export-preflight-v2.png",
+      "learningPurpose": "Show export as a separate quality checkpoint involving timing, crop, playback and editable-source retention.",
+      "caption": "Export is a quality checkpoint: compare the editable timeline, finished file and whole-playback evidence.",
+      "noticePrompt": "Notice: Which check would reveal a timing, crop or playback problem before submission?",
+      "alt": "Motion export preflight workspace with storyboard strips, an unlabeled playback screen and separate editable and output media tokens.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 motion export preflight workspace with physical storyboard strips, an unlabeled playback screen, timing markers and separate editable-source and finished-output media tokens; no readable text, logos, people or recognisable software interface.",
+      "generationPrompt": "Photorealistic 16:9 motion export preflight workspace with physical storyboard strips, an unlabeled playback screen, timing markers and separate editable-source and finished-output media tokens; no readable text, logos, people or recognisable software interface.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2149286,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "E8C5C359C58119E67A1513D0836271E3E1B619981BA82CF8B0BC46300266631A"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-07.html",
+        "section": "Timing, export and quality checks",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m07-motion-export-preflight-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 7 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m07-motion-export-preflight-v2.png",
+        "bytes": 2149286,
+        "sha256": "e8c5c359c58119e67a1513d0836271e3e1b619981ba82cf8b0bc46300266631a",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-07.html",
+        "section": "Timing, export and quality checks",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-07-motion-advertising.pptx",
+          "slide": 5,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "persuasion-evidence-ladder",
+      "module": 8,
+      "section": "Persuasion and target groups",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m08-honest-persuasion-comparison-v2.png",
+      "learningPurpose": "Compare fair, evidence-aware persuasion with manufactured urgency and emotional pressure.",
+      "caption": "Two advertisements for the same product show how fair persuasion can inform choice without manufactured pressure.",
+      "noticePrompt": "Notice: Which version supports an informed choice, and which relies on urgency or emotional pressure?",
+      "alt": "Side-by-side advertising mock-ups for the same invented product, one calm and evidence-led and one visually pressuring.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 comparison of two physical advertising mock-ups for the same invented product: one calm, clear and evidence-aware; one visually urgent and pressuring; no readable claims, prices, real brands, people or logos.",
+      "generationPrompt": "Photorealistic 16:9 comparison of two physical advertising mock-ups for the same invented product: one calm, clear and evidence-aware; one visually urgent and pressuring; no readable claims, prices, real brands, people or logos.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2555181,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "ED545C4B4096B9EC00B4356E30002C8C92D14816602599C0CE402067AAE326C4"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-08.html",
+        "section": "Persuasion and target groups",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m08-honest-persuasion-comparison-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 8 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m08-honest-persuasion-comparison-v2.png",
+        "bytes": 2555181,
+        "sha256": "ed545c4b4096b9ec00b4356e30002c8c92d14816602599c0ce402067aae326c4",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-08.html",
+        "section": "Persuasion and target groups",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-08-ethical-marketing-systems.pptx",
+          "slide": 3,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "site-structure-map",
+      "module": 9,
+      "section": "Site structure and navigation",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m09-site-structure-planning-v2.png",
+      "learningPurpose": "Make the relationship among the three confirmed site pages and their likely content visible before building.",
+      "caption": "A tabletop site map makes the relationship among Home, Products and Contact Us visible before building begins.",
+      "noticePrompt": "Notice: Can a visitor predict what belongs on each page from the path and labels?",
+      "alt": "Tabletop site-planning cards labelled Home, Products and Contact Us connected to blank content thumbnails.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 tabletop website-planning scene with three clean cards reading only HOME, PRODUCTS and CONTACT US, connected to blank content thumbnails in a clear visitor path; no other text, logos, people or interface screenshots.",
+      "generationPrompt": "Photorealistic 16:9 tabletop website-planning scene with three clean cards reading only HOME, PRODUCTS and CONTACT US, connected to blank content thumbnails in a clear visitor path; no other text, logos, people or interface screenshots.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2071947,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "470BC52E5998F688349F5EA5BD9236DB91A71A8EB44700CABD7934B30DE1ADA0"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-09.html",
+        "section": "Site structure and navigation",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m09-site-structure-planning-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 9 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m09-site-structure-planning-v2.png",
+        "bytes": 2071947,
+        "sha256": "470bc52e5998f688349f5ea5bd9236db91a71a8eb44700cabd7934b30de1ada0",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-09.html",
+        "section": "Site structure and navigation",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-09-web-portfolio.pptx",
+          "slide": 1,
+          "role": "module opener"
+        },
+        {
+          "deck": "resources/presentations/module-09-web-portfolio.pptx",
+          "slide": 3,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "publish-access-check",
+      "module": 9,
+      "section": "Publishing, access and submission",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m09-publish-access-test-v2.png",
+      "learningPurpose": "Separate preview, publish, independent access and submission into visibly distinct states.",
+      "caption": "Preview, publish, independent access and submission are separate states that require separate checks.",
+      "noticePrompt": "Notice: Which screen proves each state, and which assumption still needs a real access test?",
+      "alt": "Four-device website release check showing distinct preview, publication, external access and handoff states without readable interface text.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 website release-check workspace with four distinct device or browser states representing preview, publish, independent access and submission using simple status lights only; no readable interface text, real services, logos or people.",
+      "generationPrompt": "Photorealistic 16:9 website release-check workspace with four distinct device or browser states representing preview, publish, independent access and submission using simple status lights only; no readable interface text, real services, logos or people.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1934650,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "5BC9BF3B09CF821317A3D46AD2FA932D2DB08C3DEADD92D1E0713ACFAEDF79A2"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-09.html",
+        "section": "Publishing, access and submission",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m09-publish-access-test-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 9 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m09-publish-access-test-v2.png",
+        "bytes": 1934650,
+        "sha256": "5bc9bf3b09cf821317a3d46ad2fa932d2db08c3deadd92d1e0713acfaedf79a2",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-09.html",
+        "section": "Publishing, access and submission",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-09-web-portfolio.pptx",
+          "slide": 5,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "design-rationale-evidence",
+      "module": 10,
+      "section": "Explaining design decisions",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m10-design-rationale-evidence-v2.png",
+      "learningPurpose": "Connect a visual decision to audience, purpose, selected evidence and intended effect.",
+      "caption": "A design rationale connects one visual choice to audience, purpose, evidence and the effect it is meant to produce.",
+      "noticePrompt": "Notice: Which physical evidence supports the choice, and where is the reasoning recorded?",
+      "alt": "Design rationale desk with one selected brand proof, audience cards, comparison evidence and a blank explanation notebook.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 design rationale desk with one selected invented brand proof, privacy-safe audience cards, comparison evidence and an open blank explanation notebook arranged as a reasoning trail; no readable text, real logos or student work.",
+      "generationPrompt": "Photorealistic 16:9 design rationale desk with one selected invented brand proof, privacy-safe audience cards, comparison evidence and an open blank explanation notebook arranged as a reasoning trail; no readable text, real logos or student work.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2299128,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "9595D65AA52AA623E570B8D912C60D6D24EB74A6ECFFD037264B914E1FCF325B"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-10.html",
+        "section": "Explaining design decisions",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m10-design-rationale-evidence-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 10 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m10-design-rationale-evidence-v2.png",
+        "bytes": 2299128,
+        "sha256": "9595d65aa52aa623e570b8d912c60d6d24eb74a6ecffd037264b914e1fcf325b",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-10.html",
+        "section": "Explaining design decisions",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-10-present-evaluate-improve.pptx",
+          "slide": 4,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "evaluation-evidence-structure",
+      "module": 10,
+      "section": "Evaluation and next iteration",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m10-evaluation-next-iteration-v2.png",
+      "learningPurpose": "Show evaluation as a criterion–evidence–cause–improvement decision rather than personal preference.",
+      "caption": "Evaluation compares criteria with evidence, identifies a cause and selects one realistic next iteration.",
+      "noticePrompt": "Notice: Which change responds directly to the evidence rather than simply adding more decoration?",
+      "alt": "Evaluation workspace with one selected brand proof, comparison photograph, neutral criteria tokens and one clearly revised next version.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 evaluation workspace with one invented brand proof, selected comparison photograph, blank criteria tokens and one clearly revised next version; show one evidence-led change only; no readable text, real logos, marks or student work.",
+      "generationPrompt": "Photorealistic 16:9 evaluation workspace with one invented brand proof, selected comparison photograph, blank criteria tokens and one clearly revised next version; show one evidence-led change only; no readable text, real logos, marks or student work.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2269161,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "A3E3E8B2061B0E32BA4A2175ED72F82695F5FCBCAB863379FBD8DF6F3EE6C109"
+      },
+      "counted": true,
+      "placement": {
+        "route": "modules/module-10.html",
+        "section": "Evaluation and next iteration",
+        "region": "adjacent teaching visual"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m10-evaluation-next-iteration-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 10 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": true,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m10-evaluation-next-iteration-v2.png",
+        "bytes": 2269161,
+        "sha256": "a3e3e8b2061b0e32ba4a2175ed72f82695f5fcbcab863379fbd8df6f3ee6c109",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": {
+        "route": "modules/module-10.html",
+        "section": "Evaluation and next iteration",
+        "region": "adjacent teaching visual"
+      },
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-10-present-evaluate-improve.pptx",
+          "slide": 5,
+          "role": "matching theory section"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "PASS — independent Stage 16 rendered audit",
+        "website390CssPixels": "PASS — independent Stage 16 rendered audit at exactly 390 CSS pixels"
+      }
+    },
+    {
+      "id": "symbol-concept-exploration",
+      "module": 3,
+      "section": "Presentation title — Module 3",
+      "type": "generated-photo",
+      "src": "assets/visuals/generated-m03-symbol-concept-exploration-v2.png",
+      "learningPurpose": "Provide an image-first Module 3 opener showing divergent symbol exploration before a logo is selected.",
+      "caption": "A symbol exploration workspace introduces the shift from ideas to a recognisable logo system.",
+      "noticePrompt": "Notice: Look for genuinely different symbol directions before selecting one core idea.",
+      "alt": "Overhead design workspace with several abstract cut-paper symbol concepts, blank critique tokens and drawing tools.",
+      "provenance": "AI-generated with the built-in OpenAI image creator on 24 August 2026; no source or student image used.",
+      "brief": "Photorealistic 16:9 overhead logo exploration workspace with several genuinely different abstract cut-paper symbol concepts, blank critique tokens and drawing tools; no readable text, real logos, trademarks, names or people.",
+      "generationPrompt": "Photorealistic 16:9 overhead logo exploration workspace with several genuinely different abstract cut-paper symbol concepts, blank critique tokens and drawing tools; no readable text, real logos, trademarks, names or people.",
+      "rightsUse": "Project-created generated educational asset; no external logo or identifiable person.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2099915,
+      "digest": {
+        "algorithm": "SHA-256",
+        "value": "8F36ADC782EB387946F11DC93DD3C503E398BE655620A98A24195C6A2BB21516"
+      },
+      "counted": false,
+      "placement": {
+        "route": "resources/presentations/module-03-logo-systems.pptx",
+        "section": "Title slide",
+        "region": "presentation-only image"
+      },
+      "openLarger": {
+        "required": true,
+        "label": "Open larger",
+        "src": "assets/visuals/generated-m03-symbol-concept-exploration-v2.png"
+      },
+      "reuse": "May be reused on the matching Module 3 presentation only; any other reuse needs a separate recorded teaching purpose.",
+      "qa": {
+        "sourceFileInspected": true,
+        "fullSizeInspected": true,
+        "integrationRenderPendingStage13": false
+      },
+      "countedTeachingAsset": false,
+      "currentAsset": {
+        "file": "assets/visuals/generated-m03-symbol-concept-exploration-v2.png",
+        "bytes": 2099915,
+        "sha256": "8f36adc782eb387946f11dc93dd3c503e398be655620a98a24195c6a2bb21516",
+        "pixelDimensions": {
+          "width": 1672,
+          "height": 941
+        }
+      },
+      "websitePlacement": null,
+      "presentationPlacements": [
+        {
+          "deck": "resources/presentations/module-03-logo-systems.pptx",
+          "slide": 1,
+          "role": "module opener"
+        }
+      ],
+      "productionInspection": {
+        "fullSize": "PASS",
+        "presentationContactSheet": "PASS",
+        "websiteLaptop": "not a website placement",
+        "website390CssPixels": "not a website placement"
+      }
+    }
+  ],
+  "qa": {
+    "allFilesExistAndDigestRecorded": "PASS",
+    "everyNamedTheorySectionHasImage": "PASS — 30 of 30",
+    "presentationTheorySlideRenderInspection": "PASS — 30 of 30",
+    "finalIndependentVisualAudit": "PASS — independent Stage 16 report; no rework or Teacher to confirm items"
+  }
+}
