@@ -205,6 +205,23 @@
   padding: 16px !important;
 }
 
+/* Portrait source: give the complete Drive exemplar useful scale without cropping it. */
+.course-family-hero.hero-portrait .course-family-hero-inner {
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 340px) !important;
+}
+
+.course-family-hero.hero-portrait .hero-image-contain {
+  height: 460px !important;
+  justify-self: end !important;
+  max-height: 460px !important;
+  max-width: 340px !important;
+  min-height: 460px !important;
+}
+
+.course-family-hero.hero-portrait .hero-image-contain img {
+  padding: 8px !important;
+}
+
 .course-family-hero figcaption,
 .course-family-hero .hero-image-note {
   background: rgba(7, 19, 27, 0.9) !important;
@@ -303,6 +320,18 @@
     height: 280px !important;
     max-height: 280px !important;
     min-height: 280px !important;
+  }
+
+  .course-family-hero.hero-portrait .course-family-hero-inner {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .course-family-hero.hero-portrait .hero-image-contain {
+    height: 430px !important;
+    justify-self: center !important;
+    max-height: 430px !important;
+    max-width: 330px !important;
+    min-height: 430px !important;
   }
 }
 

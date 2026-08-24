@@ -47,6 +47,7 @@
     .filter(item => Number(item.module) === number && relatesToSection(item, section));
   const videosFor = section => asArray(mediaMap.videos)
     .filter(item => Number(item.module) === number && relatesToSection(item, section));
+  const moduleFileStem = `module-${String(number).padStart(2, "0")}-${module.slug}`;
   const misconceptionText = value => {
     if (!value) return "";
     if (typeof value === "string") return `<p>${esc(value)}</p>`;
@@ -115,6 +116,26 @@
     <p class="fine">Saved here is a working copy, not a formal submission. Back it up from My folio.</p>
   </section>`;
 
+  const renderPresentation = () => {
+    const preview = `../resources/presentation-qa/renders/${moduleFileStem}/slide-1.png`;
+    const deck = `../resources/presentations/${moduleFileStem}.pptx`;
+    return `<section class="module-presentation" id="module-presentation" aria-labelledby="module-presentation-title">
+      <div class="module-presentation__copy">
+        <p class="eyebrow">Module presentation · 8 slides</p>
+        <h2 id="module-presentation-title">Start with the big picture</h2>
+        <p>Preview the three key ideas, pause for class discussion, then continue through the worked explanations and checks below.</p>
+        <div class="actions screen-only"><a class="button" href="${esc(deck)}" download>Download PowerPoint</a><a class="button secondary" href="#${esc(moduleContent?.sections?.[0]?.id || "")}">Continue to theory</a></div>
+      </div>
+      <figure class="module-presentation__preview">
+        <button class="image-open" type="button" data-lightbox-src="${esc(preview)}" data-lightbox-alt="Title slide for Module ${number}: ${esc(module.title)}" aria-label="Open the Module ${number} presentation preview larger">
+          <img src="${esc(preview)}" alt="Title slide preview for Module ${number}: ${esc(module.title)}" width="1280" height="720">
+          <span>Open larger</span>
+        </button>
+        <figcaption>Use the editable deck for teacher-led explanation, retrieval and the module exit task.</figcaption>
+      </figure>
+    </section>`;
+  };
+
   const renderSection = section => {
     const visuals = visualsFor(section);
     const videos = videosFor(section);
@@ -144,11 +165,11 @@
     <p>${module.summary}</p>`;
   if (content) {
     content.innerHTML = moduleContent
-      ? `<div class="module-orientation"><p class="eyebrow">Module routine</p><h2>Learn three connected ideas, then apply them</h2><p>${esc(contentMap.saveNotice || "Your written work saves only in this browser until you back it up.")}</p><div class="actions screen-only"><a class="button secondary" href="../activities.html#module-${number}">Applied activities</a><a class="button secondary" href="../folio.html">My folio</a><button class="button secondary" type="button" data-print-module>Print this module</button></div></div>${moduleContent.sections.map(renderSection).join("")}`
+      ? `<div class="module-orientation"><p class="eyebrow">Module routine</p><h2>Learn three connected ideas, then apply them</h2><p>${esc(contentMap.saveNotice || "Your written work saves only in this browser until you back it up.")}</p><div class="actions screen-only"><a class="button secondary" href="../activities.html#module-${number}">Applied activities</a><a class="button secondary" href="../folio.html">My folio</a><button class="button secondary" type="button" data-print-module>Print this module</button></div></div>${renderPresentation()}${moduleContent.sections.map(renderSection).join("")}`
       : `<div class="source-boundary" role="alert"><strong>Course content could not load.</strong><p>Return to the course page and reopen this module. If the issue continues, tell your teacher which module number is affected.</p></div>`;
   }
   if (contents) contents.innerHTML = moduleContent
-    ? moduleContent.sections.map((section, index) => `<li><a href="#${esc(section.id)}"><span>${index + 1}</span>${esc(section.title)}</a></li>`).join("")
+    ? `<li><a href="#module-presentation"><span>P</span>Module presentation</a></li>${moduleContent.sections.map((section, index) => `<li><a href="#${esc(section.id)}"><span>${index + 1}</span>${esc(section.title)}</a></li>`).join("")}`
     : "<li>Content unavailable</li>";
   const progressCopy = document.querySelector(".module-aside .fine");
   if (progressCopy) {
