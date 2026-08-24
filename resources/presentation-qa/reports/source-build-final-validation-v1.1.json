@@ -1,0 +1,78 @@
+{
+  "schema": "year7-multimedia-stage07-repair-final-validation/v1",
+  "generatedAt": "2026-08-24T11:06:51.5283729+10:00",
+  "verdict": "PASS",
+  "scope": "Stage 07 presentation source/build repair only",
+  "releaseBoundary": {
+    "sourceBuildTreeOnly": true,
+    "frozenOutputsCandidateChanged": false,
+    "websitePayloadChanged": false,
+    "gitOrReleaseChanged": false
+  },
+  "paths": {
+    "presentationDirectory": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations",
+    "renderDirectory": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\presentation-build\\renders-stage16-repair",
+    "montageDirectory": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\presentation-build\\montages-stage16-repair",
+    "ooxmlReport": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\presentation-build\\stage16-repair-ooxml-report.json",
+    "renderIntegrityManifest": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\presentation-build\\render-integrity-manifest-v1.0.json",
+    "presentationManifest": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\docs\\presentation-manifest-v1.1.md",
+    "buildSource": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\presentation-build\\build-presentations.mjs"
+  },
+  "counts": {
+    "pptx": 10,
+    "slides": 80,
+    "fullSizeSlidePngs": 80,
+    "montages": 10,
+    "presenterNotes": 80,
+    "sourceBlocks": 80,
+    "pictures": 14,
+    "picturesWithMeaningfulOoxmlAccessibilityMetadata": 14,
+    "authorisedDrivePictureHyperlinks": 6
+  },
+  "artifactOperation": {
+    "markedExactlyOnceBeforeAuthoring": true,
+    "operationKind": "edit",
+    "expectedOutputCount": 10,
+    "outputFormat": "pptx"
+  },
+  "projectionScaleRepairs": {
+    "module01": [3, 4, 5],
+    "module02": [3, 4, 5],
+    "module03": [3, 4, 5],
+    "module04": [1, 3, 4],
+    "module05": [4],
+    "module06": [3, 4, 5],
+    "module07": [3, 4, 5],
+    "module08": [3, 4, 5],
+    "module09": [3, 5],
+    "module10": [3, 5]
+  },
+  "drivePosterLinks": [
+    { "module": 3, "slide": 1, "driveId": "1QwBddmlZ8KtJ_e1HzQFyY5EM-IpedPRg", "status": "PASS" },
+    { "module": 5, "slide": 4, "driveId": "1xN8xO5IlId6A7KnY-YQQjXK3_qygi-f3", "status": "PASS" },
+    { "module": 6, "slide": 4, "driveId": "1hIuwMunPHaPjdVAjPsKlIWJEm9vYMkxl", "status": "PASS" },
+    { "module": 7, "slide": 1, "driveId": "1yRWtqn_jBI_IyJRJ8yyJ3KL1Fp1L8vgt", "status": "PASS" },
+    { "module": 7, "slide": 4, "driveId": "1yRWtqn_jBI_IyJRJ8yyJ3KL1Fp1L8vgt", "status": "PASS" },
+    { "module": 9, "slide": 4, "driveId": "1PV_O58qVIZ7AtoJrjfTLl9R_xML1JcqP", "status": "PASS" }
+  ],
+  "gates": {
+    "artifactToolRebuild": { "status": "PASS", "pptx": 10, "slides": 80 },
+    "artifactToolImportAndRender": { "status": "PASS", "decksImported": 10, "pngs": 80, "dimensions": "1280x720" },
+    "fullSizeVisualInspection": { "status": "PASS", "individualSlidesInspected": 80, "montagesInspected": 10, "issues": [] },
+    "projectionLegibility": { "status": "PASS", "issues": [] },
+    "clippingAndOverlap": { "status": "PASS", "issues": [] },
+    "installedOverflowLogic": { "status": "PASS", "decksPassed": 10, "decksTested": 10 },
+    "ooxmlAccessibility": { "status": "PASS", "picturesPassed": 14, "picturesTested": 14 },
+    "authorisedPictureHyperlinks": { "status": "PASS", "linksPassed": 6, "linksExpected": 6 },
+    "presenterNotesAndSources": { "status": "PASS", "notes": 80, "sourceBlocks": 80 },
+    "reworkBoundary": { "status": "PASS", "module": 7, "slide": 5, "preservedTextBoundary": "0:16 REWORK—not a finished motion exemplar" },
+    "signedInDashboardDecorationExcluded": { "status": "PASS" }
+  },
+  "evidenceHashes": {
+    "ooxmlReportSha256": "34b81d357061606929c52f43cbb6b49483a54e9d9beeadfedb95964e370a6158",
+    "renderIntegrityManifestSha256": "ecad000e228d7bbe429728152afc84a4ed0159d1cecbc8acca5e4f02a62642db",
+    "presentationManifestSha256": "b2f40cc534fcd1ad1663f39401727e221ab1dc14476264a37a52c3b2fd374a84",
+    "renderPackageBindingSha256": "6b2a6ea852ea6dc6a1f2b434dc9d2a8bf305158ccefc088fedbdcf0d1e81a13d"
+  },
+  "failures": []
+}

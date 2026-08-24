@@ -1,0 +1,871 @@
+{
+  "schema": "year7-multimedia-presentation-render-integrity/v1.1",
+  "generatedAt": "2026-08-24T11:11:06+10:00",
+  "status": "PASS",
+  "pathContract": "Every path is relative to the Year-7-Multimedia candidate root and resolves inside the frozen payload.",
+  "renderEngine": "@oai/artifact-tool",
+  "renderScale": 1,
+  "expectedSlideDimensions": {
+    "width": 1280,
+    "height": 720
+  },
+  "deckCount": 10,
+  "slidePngCount": 80,
+  "montageCount": 10,
+  "reports": [
+    {
+      "path": "resources/presentation-qa/reports/source-build-final-validation-v1.1.json",
+      "bytes": 4409,
+      "sha256": "dcc0d23bd3cc739d1fb1d4a9a15b29e08997bc9ed15a3525824da4dd8d1b4e6c"
+    },
+    {
+      "path": "resources/presentation-qa/reports/ooxml-accessibility-and-links-v1.1.json",
+      "bytes": 6503,
+      "sha256": "34b81d357061606929c52f43cbb6b49483a54e9d9beeadfedb95964e370a6158"
+    }
+  ],
+  "decks": [
+    {
+      "stem": "module-01-the-design-challenge",
+      "pptx": {
+        "path": "resources/presentations/module-01-the-design-challenge.pptx",
+        "bytes": 3343865,
+        "sha256": "3dce387f917b78c728a84fcbdf5e4b15533c170daf230c725f7e92bddeadb7cd"
+      },
+      "renderedFromPptxSha256": "3dce387f917b78c728a84fcbdf5e4b15533c170daf230c725f7e92bddeadb7cd",
+      "slides": [
+        {
+          "path": "resources/presentation-qa/renders/module-01-the-design-challenge/slide-1.png",
+          "bytes": 526869,
+          "sha256": "3a25cdc6e442d6be9f8ec4751cb9b61fbadf4a090dc089f6f620d8325370c33a",
+          "number": 1,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-01-the-design-challenge/slide-2.png",
+          "bytes": 55432,
+          "sha256": "498fc20d2031fd1671e30569f442a3e0d33d764f9e37a0d6ff75c46ef90376d5",
+          "number": 2,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-01-the-design-challenge/slide-3.png",
+          "bytes": 61400,
+          "sha256": "4d9b405bb878809105374c474f70b8ae93e90a3aad82cefe1f237125813c631a",
+          "number": 3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-01-the-design-challenge/slide-4.png",
+          "bytes": 66976,
+          "sha256": "981b3f9ddd9bb9ad795c43a1e38bec992cd970005fd1ae06aec1161d824a0730",
+          "number": 4,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-01-the-design-challenge/slide-5.png",
+          "bytes": 69513,
+          "sha256": "4fa8f0adeb94327fbec513d30542a9e47a860c768c11557032dd6285a9827bc2",
+          "number": 5,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-01-the-design-challenge/slide-6.png",
+          "bytes": 44228,
+          "sha256": "f40278583d6c9e75fa781ed468a9bc6d1f294a3a63ebe354047feedfaa5f9bc8",
+          "number": 6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-01-the-design-challenge/slide-7.png",
+          "bytes": 74640,
+          "sha256": "8e1ff55fcf39ee6ca07c7f4f50308390643adc287ca7d6502d4922de7ebb738a",
+          "number": 7,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-01-the-design-challenge/slide-8.png",
+          "bytes": 44719,
+          "sha256": "21b86ddbde57368fd65b47174c180d4058898c428ed6a428d1456ae7eb1585c1",
+          "number": 8,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "montage": {
+        "path": "resources/presentation-qa/montages/module-01-the-design-challenge-montage.png",
+        "bytes": 282913,
+        "sha256": "f8dcb4325f51376690cf8817c30b3b7126958f9788bdd906bea4b6680b5b4738",
+        "width": 1690,
+        "height": 556
+      },
+      "bindingAlgorithm": "SHA-256 over ordered pptx/slide-1..8/montage hash lines",
+      "bindingSha256": "9e6cae600aee672e7ab267910bdc87fd06ed9b6e690560eeafeec9ffe439fafe"
+    },
+    {
+      "stem": "module-02-visual-language",
+      "pptx": {
+        "path": "resources/presentations/module-02-visual-language.pptx",
+        "bytes": 3768598,
+        "sha256": "23bfbfda2cb121df21616872f3f525d33808474ff36304d54d306813bd74bb75"
+      },
+      "renderedFromPptxSha256": "23bfbfda2cb121df21616872f3f525d33808474ff36304d54d306813bd74bb75",
+      "slides": [
+        {
+          "path": "resources/presentation-qa/renders/module-02-visual-language/slide-1.png",
+          "bytes": 658635,
+          "sha256": "515ce3b805d741a2fb8ab247b460c2d4993533bfe462b04b53e4639be9e7c45e",
+          "number": 1,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-02-visual-language/slide-2.png",
+          "bytes": 52947,
+          "sha256": "e1a3eda9ed376c885813ae2f5b433262fa7f06038ec8fbbf2a2403d04c60e5a0",
+          "number": 2,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-02-visual-language/slide-3.png",
+          "bytes": 61260,
+          "sha256": "5a4afb0ff159dacf453ea1beddecb4ce7762d1ce7b002b755e6bfbfd0480e1bd",
+          "number": 3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-02-visual-language/slide-4.png",
+          "bytes": 60904,
+          "sha256": "1cc1291e91e2b59f13bd7701835c50aa7ca57032217093f39a885571751061d5",
+          "number": 4,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-02-visual-language/slide-5.png",
+          "bytes": 58317,
+          "sha256": "e368b0ca5d63225e907775f5e8296e1f17d074808227ad7e7c4de7ad53e5127b",
+          "number": 5,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-02-visual-language/slide-6.png",
+          "bytes": 40853,
+          "sha256": "38af146809eda42304ee61479b24d07cec861b0339122303f088562230f8a829",
+          "number": 6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-02-visual-language/slide-7.png",
+          "bytes": 74921,
+          "sha256": "9a64dfbebde9bc15a94d08d956dd9a355bf0e5b8f4b5eb09970e7a94d00f90b2",
+          "number": 7,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-02-visual-language/slide-8.png",
+          "bytes": 44677,
+          "sha256": "5a6ac26c735a45aac5532392da0738f29a3cdff673c06ae2e6e9ea970eab5a82",
+          "number": 8,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "montage": {
+        "path": "resources/presentation-qa/montages/module-02-visual-language-montage.png",
+        "bytes": 277152,
+        "sha256": "f6c90b4f7b12ad3a0759526afb951bc50e10b135f0cb75408d48b931a7ab214f",
+        "width": 1690,
+        "height": 556
+      },
+      "bindingAlgorithm": "SHA-256 over ordered pptx/slide-1..8/montage hash lines",
+      "bindingSha256": "2bd5419deaae491091477cbbe341246fe5390991a52c7cb127e7301277ee1440"
+    },
+    {
+      "stem": "module-03-logo-systems",
+      "pptx": {
+        "path": "resources/presentations/module-03-logo-systems.pptx",
+        "bytes": 149819,
+        "sha256": "4fd1f834296923515a7567c376fa2777304867e58e14552f2b1cbf415278672b"
+      },
+      "renderedFromPptxSha256": "4fd1f834296923515a7567c376fa2777304867e58e14552f2b1cbf415278672b",
+      "slides": [
+        {
+          "path": "resources/presentation-qa/renders/module-03-logo-systems/slide-1.png",
+          "bytes": 69186,
+          "sha256": "c9868038e2004844e565d1c0155f15c10bfec88e027679e1d911a9598058dfd6",
+          "number": 1,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-03-logo-systems/slide-2.png",
+          "bytes": 53551,
+          "sha256": "d8fe24beb12486d7631f4546a0e927ffca61d64ad8d07758feca65ff9a6a9365",
+          "number": 2,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-03-logo-systems/slide-3.png",
+          "bytes": 60541,
+          "sha256": "5aba84304ab921967c89412c0abce1a13b5d12320fd5cb928226a0f4d25880be",
+          "number": 3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-03-logo-systems/slide-4.png",
+          "bytes": 61291,
+          "sha256": "e80af8ca2c628427266e6680ece89c92f5320795629793219f2de3419be93ddd",
+          "number": 4,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-03-logo-systems/slide-5.png",
+          "bytes": 61977,
+          "sha256": "fb896c718c6cc9a110dc8a9b43ab5a2145b3dd4b2e80207d64c0e97c98c5cecf",
+          "number": 5,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-03-logo-systems/slide-6.png",
+          "bytes": 38955,
+          "sha256": "8f420af7a529b84752853958f6478e920189fb60e4d10a0bb9d5f70a85420f93",
+          "number": 6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-03-logo-systems/slide-7.png",
+          "bytes": 74173,
+          "sha256": "22681ebf2dc13764800b60b222208ab8bc36f6aa3ea2df87c0b7979f787ef1d7",
+          "number": 7,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-03-logo-systems/slide-8.png",
+          "bytes": 44727,
+          "sha256": "3be0c6bd361b82257adbecc4f3ec45f326792a2c5d22341661b3f27b182a6258",
+          "number": 8,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "montage": {
+        "path": "resources/presentation-qa/montages/module-03-logo-systems-montage.png",
+        "bytes": 219787,
+        "sha256": "32872777ec4f9a3118f80a8f0d0f0456c25de8d79a877fffea8dd1f536ed6632",
+        "width": 1690,
+        "height": 556
+      },
+      "bindingAlgorithm": "SHA-256 over ordered pptx/slide-1..8/montage hash lines",
+      "bindingSha256": "f428b653639326a1d7ba8bf170eb7f340e7f780712928395d237b59c86fa43f0"
+    },
+    {
+      "stem": "module-04-menu-information-design",
+      "pptx": {
+        "path": "resources/presentations/module-04-menu-information-design.pptx",
+        "bytes": 706675,
+        "sha256": "a470577a5065b123a0633562d0d7bfe0889fb206d6218450e83cc20867b68294"
+      },
+      "renderedFromPptxSha256": "a470577a5065b123a0633562d0d7bfe0889fb206d6218450e83cc20867b68294",
+      "slides": [
+        {
+          "path": "resources/presentation-qa/renders/module-04-menu-information-design/slide-1.png",
+          "bytes": 412699,
+          "sha256": "cb94f73e46c7c6adc5677db6103209d74279559bde970d8df6b4db8ae1bad147",
+          "number": 1,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-04-menu-information-design/slide-2.png",
+          "bytes": 54221,
+          "sha256": "5a97bf02ad2d35cbb65caaad18946d461e9854dfa1b2db3f8683e56ee2afb179",
+          "number": 2,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-04-menu-information-design/slide-3.png",
+          "bytes": 66296,
+          "sha256": "1795db2f35c2ce5ea1d56f53c7a0686bb9e52dbbd7903232f8957953011c48ca",
+          "number": 3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-04-menu-information-design/slide-4.png",
+          "bytes": 57765,
+          "sha256": "3c61132c28bbc751ec6824989a79bc1e10716e54b8b6ac36726c2587dc950b01",
+          "number": 4,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-04-menu-information-design/slide-5.png",
+          "bytes": 57479,
+          "sha256": "60a44860a500c67ee1fd3e2083f6792cedc18cf5e68263c9ec826db63f055489",
+          "number": 5,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-04-menu-information-design/slide-6.png",
+          "bytes": 40089,
+          "sha256": "518ccc3a8c67b347c15af88d188cc8028367c95b8204e9513488c1376458aaae",
+          "number": 6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-04-menu-information-design/slide-7.png",
+          "bytes": 75332,
+          "sha256": "7239c92ed1e69acb7c9ad6c9f0bc249e8e9f89d35394ba05777f18ca08d068f1",
+          "number": 7,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-04-menu-information-design/slide-8.png",
+          "bytes": 44759,
+          "sha256": "3b1e2aff004400af72637dfa425831f5eab9de6d37acd73499132c7539a5f082",
+          "number": 8,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "montage": {
+        "path": "resources/presentation-qa/montages/module-04-menu-information-design-montage.png",
+        "bytes": 258928,
+        "sha256": "dece8aec464b5a94aa763a0d7dd52990ed79a98703bc833363767ef62c6a376a",
+        "width": 1690,
+        "height": 556
+      },
+      "bindingAlgorithm": "SHA-256 over ordered pptx/slide-1..8/montage hash lines",
+      "bindingSha256": "b34b7f37a3ad16b12eda6b0c4770292b768fe6ad64d6d7a7661d03e64ef22529"
+    },
+    {
+      "stem": "module-05-promotional-poster",
+      "pptx": {
+        "path": "resources/presentations/module-05-promotional-poster.pptx",
+        "bytes": 7876431,
+        "sha256": "ee614b025a1168e97202c249faab6a5208484ba8e22e679d6925905f1f5e2d60"
+      },
+      "renderedFromPptxSha256": "ee614b025a1168e97202c249faab6a5208484ba8e22e679d6925905f1f5e2d60",
+      "slides": [
+        {
+          "path": "resources/presentation-qa/renders/module-05-promotional-poster/slide-1.png",
+          "bytes": 567028,
+          "sha256": "82ece665b78a5da57832686bc7f7b15d5583fa0fb449374c4e2ab6d9866e77e0",
+          "number": 1,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-05-promotional-poster/slide-2.png",
+          "bytes": 54860,
+          "sha256": "685610ad3b8f224d8bbba7fe1bde22a0f3391d83216d346e82eec76779f11924",
+          "number": 2,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-05-promotional-poster/slide-3.png",
+          "bytes": 123476,
+          "sha256": "b940cdc19c76018d45ba8f690ba7b657e8cc9afcd9a50d05469360ce7f22aad6",
+          "number": 3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-05-promotional-poster/slide-4.png",
+          "bytes": 84502,
+          "sha256": "22f1951d5a8696b3e1b168ba7a6e9e83a6beac11c1f6a1c4b7e221c18ead1a89",
+          "number": 4,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-05-promotional-poster/slide-5.png",
+          "bytes": 194855,
+          "sha256": "c02d3b1d27a51b38072835e892a0f25579834a5d8d8bb1b18277be96e5028229",
+          "number": 5,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-05-promotional-poster/slide-6.png",
+          "bytes": 39370,
+          "sha256": "42561d6d8aa05caf333b3a9882a126f83234301c6271c79efdbfeb8e2c97c3d9",
+          "number": 6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-05-promotional-poster/slide-7.png",
+          "bytes": 74754,
+          "sha256": "4a6f93df7697c0a97233360293cbbccd0a35e3bbfaabdedeeff89f435558dfb8",
+          "number": 7,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-05-promotional-poster/slide-8.png",
+          "bytes": 44882,
+          "sha256": "f90ea6e6defe0d01959902abf3a8f57cf62ab215e4bec7bea7b18bb30a891056",
+          "number": 8,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "montage": {
+        "path": "resources/presentation-qa/montages/module-05-promotional-poster-montage.png",
+        "bytes": 309721,
+        "sha256": "80414e9486bfdb42b4b624f483a0549c5b9616c6de9ac652ede7cf14424afddc",
+        "width": 1690,
+        "height": 556
+      },
+      "bindingAlgorithm": "SHA-256 over ordered pptx/slide-1..8/montage hash lines",
+      "bindingSha256": "3a664131cbed3af7e87e3aafc06905ce8d99061026f110ea64a1c346ad20c7c6"
+    },
+    {
+      "stem": "module-06-brand-applications",
+      "pptx": {
+        "path": "resources/presentations/module-06-brand-applications.pptx",
+        "bytes": 2941666,
+        "sha256": "f63931f1b363f30db420917c6260676678318a9aff6f5d9cc91b7c2a8047c432"
+      },
+      "renderedFromPptxSha256": "f63931f1b363f30db420917c6260676678318a9aff6f5d9cc91b7c2a8047c432",
+      "slides": [
+        {
+          "path": "resources/presentation-qa/renders/module-06-brand-applications/slide-1.png",
+          "bytes": 481623,
+          "sha256": "dea8a4d6ebd11eb73c009d50345606dac4eb2e24d72a12efc89cffb0823a7365",
+          "number": 1,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-06-brand-applications/slide-2.png",
+          "bytes": 54506,
+          "sha256": "e7af245dd3539ac7ef1253835cae27d6700d6f5ac2e35b8e7bf1f3f7ea70e5fc",
+          "number": 2,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-06-brand-applications/slide-3.png",
+          "bytes": 60304,
+          "sha256": "dc3ea5276dd80ea129fa2e2b804a2780d57e3bd37740a57e8c86ef9b72ea5b95",
+          "number": 3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-06-brand-applications/slide-4.png",
+          "bytes": 81049,
+          "sha256": "67ecec0241528eb5b83b452c560130edc9df2aa62f3306632ca182015a60076f",
+          "number": 4,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-06-brand-applications/slide-5.png",
+          "bytes": 68585,
+          "sha256": "239e6454908efb13637a2433337c449e6d8d40fd004b87cca4cf8c74c4e2b010",
+          "number": 5,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-06-brand-applications/slide-6.png",
+          "bytes": 40861,
+          "sha256": "562476c8e6ee2996ef2ff76463ca9f1d7103976adf98947974a55a813f188254",
+          "number": 6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-06-brand-applications/slide-7.png",
+          "bytes": 76184,
+          "sha256": "51cf3579558bf907cac68c3320cd512fed7f341441b6920ef5d89c50b8205e93",
+          "number": 7,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-06-brand-applications/slide-8.png",
+          "bytes": 44559,
+          "sha256": "a32171a3507d76eb8dd3cdbb2d78c1ee89561ce4ff80f9094714f5c4c5323b2d",
+          "number": 8,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "montage": {
+        "path": "resources/presentation-qa/montages/module-06-brand-applications-montage.png",
+        "bytes": 277262,
+        "sha256": "cf9297ed152c0a0334d81283e4d21c11ffd4359d54639097181b68c8cc1ccd53",
+        "width": 1690,
+        "height": 556
+      },
+      "bindingAlgorithm": "SHA-256 over ordered pptx/slide-1..8/montage hash lines",
+      "bindingSha256": "544b636d251d9a7b23ba0e5d85bcf6b7acbaa720bab012bc174afda0124ba7fb"
+    },
+    {
+      "stem": "module-07-motion-advertising",
+      "pptx": {
+        "path": "resources/presentations/module-07-motion-advertising.pptx",
+        "bytes": 217065,
+        "sha256": "7730e2a0cba09ab2c2f7d9d2a6c97e535d0b19741a1921b6c71ad7bec05c2877"
+      },
+      "renderedFromPptxSha256": "7730e2a0cba09ab2c2f7d9d2a6c97e535d0b19741a1921b6c71ad7bec05c2877",
+      "slides": [
+        {
+          "path": "resources/presentation-qa/renders/module-07-motion-advertising/slide-1.png",
+          "bytes": 64762,
+          "sha256": "a71be1466e008025f5862c39d06dc4bc4f57a2a929b85f42eaa3c75d69e7d4f3",
+          "number": 1,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-07-motion-advertising/slide-2.png",
+          "bytes": 54794,
+          "sha256": "035ddbfc6a0c0598bfab4968a36df6867c954fb1b44bdb80e0007e87cf3574ed",
+          "number": 2,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-07-motion-advertising/slide-3.png",
+          "bytes": 57095,
+          "sha256": "6c0f53f3b963c262d80778ca9cb35ca095c3a4a17d22f87c942cbb89994a545c",
+          "number": 3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-07-motion-advertising/slide-4.png",
+          "bytes": 79281,
+          "sha256": "df18d7052d51cb7f55eaa0b5b6bb0f4bca6375f196a80c41106a40ec558b364d",
+          "number": 4,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-07-motion-advertising/slide-5.png",
+          "bytes": 69760,
+          "sha256": "be4c24cbf033822ef59fd67f6402c2f73d2b91632acace4ecaf3f37c428f4b15",
+          "number": 5,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-07-motion-advertising/slide-6.png",
+          "bytes": 39994,
+          "sha256": "a5dfaa9f46fdee1278c3e9f466df5e5dbefe6a712cd535a0b985c7db2e441a72",
+          "number": 6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-07-motion-advertising/slide-7.png",
+          "bytes": 75778,
+          "sha256": "dda20c2da70f22abad574069e3bfaf964f30067d498bfd6133fb0f5267562bf8",
+          "number": 7,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-07-motion-advertising/slide-8.png",
+          "bytes": 44878,
+          "sha256": "b63966f16f35b9fa65f4b45453d2f03a53ed8fa09b9055a93ae6ada0f0748feb",
+          "number": 8,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "montage": {
+        "path": "resources/presentation-qa/montages/module-07-motion-advertising-montage.png",
+        "bytes": 241121,
+        "sha256": "ea72c3d67d151c967c53ae3048d5bcbb66c8ed5953b178c5d99b58b57d65bf93",
+        "width": 1690,
+        "height": 556
+      },
+      "bindingAlgorithm": "SHA-256 over ordered pptx/slide-1..8/montage hash lines",
+      "bindingSha256": "16f59ccc4eb5acba059ec24faa48593850ea30f2c785fa637c24219b784e6bb8"
+    },
+    {
+      "stem": "module-08-ethical-marketing-systems",
+      "pptx": {
+        "path": "resources/presentations/module-08-ethical-marketing-systems.pptx",
+        "bytes": 45369,
+        "sha256": "6dbe27eaca2d7d38ce18842f559d6b7e41740e1b460756447afca02dc0197e6c"
+      },
+      "renderedFromPptxSha256": "6dbe27eaca2d7d38ce18842f559d6b7e41740e1b460756447afca02dc0197e6c",
+      "slides": [
+        {
+          "path": "resources/presentation-qa/renders/module-08-ethical-marketing-systems/slide-1.png",
+          "bytes": 49005,
+          "sha256": "772a9e61f852033c07054976fade528e2d7102c64c4d803fb72bfd59d01a6174",
+          "number": 1,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-08-ethical-marketing-systems/slide-2.png",
+          "bytes": 56599,
+          "sha256": "3b3cdd4d832c43ecafb6b64fe8c28725b615585f0f08ad2f1e548195d180a31d",
+          "number": 2,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-08-ethical-marketing-systems/slide-3.png",
+          "bytes": 70593,
+          "sha256": "17c7f6be7a5e23bda6b626a9407cfa6e382cec31ff541903b159844346285a63",
+          "number": 3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-08-ethical-marketing-systems/slide-4.png",
+          "bytes": 63115,
+          "sha256": "6ca533b18dfc598a5f7bc75539a462832c0ebad22d7b05ae2f737da2f2e02c82",
+          "number": 4,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-08-ethical-marketing-systems/slide-5.png",
+          "bytes": 73534,
+          "sha256": "9b8e5ea06d2a788f36b9de84eec250c4e279e5889ef9c61e6ea2beb2254ff098",
+          "number": 5,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-08-ethical-marketing-systems/slide-6.png",
+          "bytes": 40269,
+          "sha256": "f4d7ce82e8a2c15639a0c4c3ef2da1ac657378641ea538cc85f33ac4854bc5ea",
+          "number": 6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-08-ethical-marketing-systems/slide-7.png",
+          "bytes": 76010,
+          "sha256": "80c8059368b77d7d7210265b8c94b94207fd590b62165fa5068ac29cac0e8b5c",
+          "number": 7,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-08-ethical-marketing-systems/slide-8.png",
+          "bytes": 45204,
+          "sha256": "2c72a90cc27a241428aed1a3a7c9dcfb01516e24244354545258c55ead7fa71b",
+          "number": 8,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "montage": {
+        "path": "resources/presentation-qa/montages/module-08-ethical-marketing-systems-montage.png",
+        "bytes": 233900,
+        "sha256": "c362aadb2a6d11b398bbc5738cca7bcb08cb3a8f8fa6bd1de8116341339558d8",
+        "width": 1690,
+        "height": 556
+      },
+      "bindingAlgorithm": "SHA-256 over ordered pptx/slide-1..8/montage hash lines",
+      "bindingSha256": "8855929efa1311eef49dd68751d651e2f7b804093eaf31b1a0634d37db43d2b0"
+    },
+    {
+      "stem": "module-09-web-portfolio",
+      "pptx": {
+        "path": "resources/presentations/module-09-web-portfolio.pptx",
+        "bytes": 128700,
+        "sha256": "b42a978a2358490edab2d280751f2d7a7e2408b4229313a7a0ea3982d2f78bb7"
+      },
+      "renderedFromPptxSha256": "b42a978a2358490edab2d280751f2d7a7e2408b4229313a7a0ea3982d2f78bb7",
+      "slides": [
+        {
+          "path": "resources/presentation-qa/renders/module-09-web-portfolio/slide-1.png",
+          "bytes": 47775,
+          "sha256": "a206267ba3ae515011d70a476fecd6faf66df239a07c4bd3c8117330c571976e",
+          "number": 1,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-09-web-portfolio/slide-2.png",
+          "bytes": 55315,
+          "sha256": "6cf3a38be06294b72035e9305d2eb9dcf8799877fff6515e39e9e60742f359ea",
+          "number": 2,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-09-web-portfolio/slide-3.png",
+          "bytes": 63186,
+          "sha256": "e082f404c4aa3df83c85aad1046d3397f7374ee073fc782a23bc6922b4334114",
+          "number": 3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-09-web-portfolio/slide-4.png",
+          "bytes": 66740,
+          "sha256": "d0a113f7f18bdb8ac9eae6cbce8fd3f4d3bd3e13cca124f9e5c3967c2b852d1a",
+          "number": 4,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-09-web-portfolio/slide-5.png",
+          "bytes": 64003,
+          "sha256": "683830b9fde0c6a88279ced9f3e8b3bd1688c51f16564a000016b599b5cc0a0c",
+          "number": 5,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-09-web-portfolio/slide-6.png",
+          "bytes": 40625,
+          "sha256": "63b826974f044c07ea230049a06220863ebc6965671b5cf441ca5afd19d1f7dd",
+          "number": 6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-09-web-portfolio/slide-7.png",
+          "bytes": 73633,
+          "sha256": "17416392b5246e4cb36c26397c42bb7c312485b399fd54a1ca8905178a778e08",
+          "number": 7,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-09-web-portfolio/slide-8.png",
+          "bytes": 44662,
+          "sha256": "82c4dbc2840d3ab728d9cd5b4ece5e1174d29c592b8d9d1dfd1f21b279d22c70",
+          "number": 8,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "montage": {
+        "path": "resources/presentation-qa/montages/module-09-web-portfolio-montage.png",
+        "bytes": 227591,
+        "sha256": "9a4f888fd22525ebbf7b2be88b163500946f83da5089f095abbb0265e5d8e7e6",
+        "width": 1690,
+        "height": 556
+      },
+      "bindingAlgorithm": "SHA-256 over ordered pptx/slide-1..8/montage hash lines",
+      "bindingSha256": "1702a5734dcd760e595b1e4cded1f97f923cb805358826ffbefc792898c4112d"
+    },
+    {
+      "stem": "module-10-present-evaluate-improve",
+      "pptx": {
+        "path": "resources/presentations/module-10-present-evaluate-improve.pptx",
+        "bytes": 3681952,
+        "sha256": "293e28258fef4925d6a76cc2ad3220b639dc956c3cfe98ecbf2db1aeba56ffd2"
+      },
+      "renderedFromPptxSha256": "293e28258fef4925d6a76cc2ad3220b639dc956c3cfe98ecbf2db1aeba56ffd2",
+      "slides": [
+        {
+          "path": "resources/presentation-qa/renders/module-10-present-evaluate-improve/slide-1.png",
+          "bytes": 579023,
+          "sha256": "2bb7599414f37411d8abea3e09f43f3c79823dfa3666a015fd66c0d5387f3b00",
+          "number": 1,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-10-present-evaluate-improve/slide-2.png",
+          "bytes": 54539,
+          "sha256": "ff4e8e68a2bfd00a597e682bfc69ecf2681b1328b9341dab08e820b20b10be6b",
+          "number": 2,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-10-present-evaluate-improve/slide-3.png",
+          "bytes": 61427,
+          "sha256": "48e2c3b31ea3a50fca48120741486109aa5f6bf2a16fe23504f4d8ac7aa78206",
+          "number": 3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-10-present-evaluate-improve/slide-4.png",
+          "bytes": 69220,
+          "sha256": "1c75985691b63e0af62b9e0a7f32f7aa4d665a1dbc11b28a175540738bff0d9a",
+          "number": 4,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-10-present-evaluate-improve/slide-5.png",
+          "bytes": 66932,
+          "sha256": "37de87f081ce07a7f33cc0700c3e55a6c0ade3f9f84a6c84a2b85a36b6ec7090",
+          "number": 5,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-10-present-evaluate-improve/slide-6.png",
+          "bytes": 43010,
+          "sha256": "347465921d9892a9c5225593ea5a20ddef8808ff9003fe8ebc9c8112f3303b5d",
+          "number": 6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-10-present-evaluate-improve/slide-7.png",
+          "bytes": 76214,
+          "sha256": "1658c19ec91ead7ded86321eb2207abf05bb794afd9bad7b4b59e026b2cec8fc",
+          "number": 7,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "resources/presentation-qa/renders/module-10-present-evaluate-improve/slide-8.png",
+          "bytes": 45184,
+          "sha256": "e009869b546c2fb4a272f915ad076d51a5bdbb890867e64ccdc2c4bb19f40ae4",
+          "number": 8,
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "montage": {
+        "path": "resources/presentation-qa/montages/module-10-present-evaluate-improve-montage.png",
+        "bytes": 277699,
+        "sha256": "d6f64b233c1da439b25c61c4f494180306ee7fe4d7cdb7d32b968bfb35f88491",
+        "width": 1690,
+        "height": 556
+      },
+      "bindingAlgorithm": "SHA-256 over ordered pptx/slide-1..8/montage hash lines",
+      "bindingSha256": "c9d5f2c58510ed6eb1ac9dce9096c2499421e1dc390535d2829173fec0d8d6e6"
+    }
+  ],
+  "failures": [],
+  "packageBindingSha256": "6b2a6ea852ea6dc6a1f2b434dc9d2a8bf305158ccefc088fedbdcf0d1e81a13d"
+}

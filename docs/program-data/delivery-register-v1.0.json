@@ -1,0 +1,1675 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "year7-multimedia-delivery-register",
+  "version": "1.0",
+  "build_id": "y7mm-stage14-content-20260824",
+  "generated_at": "2026-08-24",
+  "course": "Year 7 Technology — Multimedia: Fast Food Futures",
+  "delivery_state": "Provisional planning register; actual timetable and delivery fields are blank-ready.",
+  "program_content_file": "program-content-v1.0.json",
+  "presentation_state": "All ten exact Stage 07 presentation filenames are reconciled; final 80-slide render, visual and overflow QA passed before candidate freeze.",
+  "modules": [
+    {
+      "module_id": "module-01",
+      "module_number": 1,
+      "module_title": "The design challenge",
+      "route": "modules/module-01.html",
+      "section_codes": [
+        {
+          "section_id": "m01-s01",
+          "title": "Problem, purpose and brief",
+          "route": "modules/module-01.html#m01-s01"
+        },
+        {
+          "section_id": "m01-s02",
+          "title": "Users and target audiences",
+          "route": "modules/module-01.html#m01-s02"
+        },
+        {
+          "section_id": "m01-s03",
+          "title": "Original ideas and responsible AI",
+          "route": "modules/module-01.html#m01-s03"
+        }
+      ],
+      "presentation": {
+        "state": "integrated Stage 07 presentation file; final deck QA pending",
+        "expected_filename": "module-01-the-design-challenge.pptx",
+        "expected_path": "resources/presentations/module-01-the-design-challenge.pptx"
+      },
+      "drive_media": {
+        "source_refs": [
+          {
+            "source_id": "drive:business-planning-brainstorm",
+            "title": "Business Planning Brainstorm",
+            "drive_id": "13tXPa3Zq024LQK5sinXcbaukdzPfJEoMvm3wfNOmoTg",
+            "kind": "teacher master"
+          },
+          {
+            "source_id": "drive:being-a-graphic-designer",
+            "title": "Being a Graphic Designer",
+            "drive_id": "18vZsOCmAIfvwDfujuUrDJzOfP6zeeSUcPgX8JlWpNr4",
+            "kind": "teacher master"
+          }
+        ],
+        "placed_source_images": [],
+        "placed_videos": []
+      },
+      "applied_activities": [
+        {
+          "activity_id": "act-m01-brief-audience-cards",
+          "title": "Brief or audience clue?",
+          "route": "activities.html#act-m01-brief-audience-cards",
+          "state": "mapped"
+        },
+        {
+          "activity_id": "act-m01-originality-trail",
+          "title": "Build an originality trail",
+          "route": "activities.html#act-m01-originality-trail",
+          "state": "mapped"
+        }
+      ],
+      "folio_stage": {
+        "stage_id": "brief-audience",
+        "stage_number": 1,
+        "title": "Brand brief and audience",
+        "route": "folio.html#folio-stage-brief-audience"
+      },
+      "assessment_boundary": "Formative evidence guide - not a formal task notification; Project evidence only. Formal assessment status is Teacher to confirm.",
+      "outcome_codes": [
+        "TE4-PDP-01",
+        "TE4-PPM-01",
+        "TE4-DES-01",
+        "TE4-DIG-01"
+      ],
+      "lesson_entries": [
+        {
+          "period": 1,
+          "planned_focus": "Brief, purpose and audience",
+          "primary_type": "Site/theory",
+          "section_ids": [
+            "m01-s01",
+            "m01-s02"
+          ],
+          "presentation_filename": "module-01-the-design-challenge.pptx",
+          "source_media_ids": [
+            "audience-research-workspace",
+            "design-brief-loop",
+            "audience-needs-map"
+          ],
+          "activity_ids": [
+            "act-m01-brief-audience-cards"
+          ],
+          "folio_stage_id": "brief-audience",
+          "planned_evidence": "Brief separates confirmed requirements, student choices and one unsupported assumption.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-DIG-01"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        },
+        {
+          "period": 2,
+          "planned_focus": "Originality, responsible AI and brief evidence",
+          "primary_type": "Project/folio",
+          "section_ids": [
+            "m01-s03"
+          ],
+          "presentation_filename": "module-01-the-design-challenge.pptx",
+          "source_media_ids": [
+            "responsible-ai-filter"
+          ],
+          "activity_ids": [
+            "act-m01-originality-trail"
+          ],
+          "folio_stage_id": "brief-audience",
+          "planned_evidence": "Student contribution, checking, attribution and privacy boundary are visible.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-DIG-01"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        }
+      ]
+    },
+    {
+      "module_id": "module-02",
+      "module_number": 2,
+      "module_title": "Visual language",
+      "route": "modules/module-02.html",
+      "section_codes": [
+        {
+          "section_id": "m02-s01",
+          "title": "Colour and meaning",
+          "route": "modules/module-02.html#m02-s01"
+        },
+        {
+          "section_id": "m02-s02",
+          "title": "Typography and tone",
+          "route": "modules/module-02.html#m02-s02"
+        },
+        {
+          "section_id": "m02-s03",
+          "title": "Hierarchy, layout and mood boards",
+          "route": "modules/module-02.html#m02-s03"
+        }
+      ],
+      "presentation": {
+        "state": "integrated Stage 07 presentation file; final deck QA pending",
+        "expected_filename": "module-02-visual-language.pptx",
+        "expected_path": "resources/presentations/module-02-visual-language.pptx"
+      },
+      "drive_media": {
+        "source_refs": [
+          {
+            "source_id": "drive:business-planning-brainstorm",
+            "title": "Business Planning Brainstorm",
+            "drive_id": "13tXPa3Zq024LQK5sinXcbaukdzPfJEoMvm3wfNOmoTg",
+            "kind": "teacher master"
+          },
+          {
+            "source_id": "drive:being-a-graphic-designer",
+            "title": "Being a Graphic Designer",
+            "drive_id": "18vZsOCmAIfvwDfujuUrDJzOfP6zeeSUcPgX8JlWpNr4",
+            "kind": "teacher master"
+          },
+          {
+            "source_id": "drive:poster-exemplars",
+            "title": "Current Drive poster and three contextual mock-ups",
+            "drive_ids": [
+              "15TN4IA_A8hVyi8y6pJm1FQLt8sgVC6lF",
+              "1HcPYwQWU8hwUQIvwTrbelmv1Oht34-bQ",
+              "1XwNIF0j57yjphJKc6vIuLSfkGIhQOZbc",
+              "1xikLjbdDipDPon_9RxxE7K8hgJKMxp7U"
+            ],
+            "kind": "source images"
+          },
+          {
+            "source_id": "drive:canteen-menu",
+            "title": "Canteen Menu WWHS.jpg",
+            "drive_id": "13ive02RO-0Ejmm1AEXgo69uUk8wGJ822",
+            "kind": "source image; information-design example only"
+          }
+        ],
+        "placed_source_images": [],
+        "placed_videos": []
+      },
+      "applied_activities": [
+        {
+          "activity_id": "act-m02-palette-purpose",
+          "title": "Palette roles under pressure",
+          "route": "activities.html#act-m02-palette-purpose",
+          "state": "mapped"
+        },
+        {
+          "activity_id": "act-m02-type-hierarchy",
+          "title": "Type and hierarchy lab",
+          "route": "activities.html#act-m02-type-hierarchy",
+          "state": "mapped"
+        },
+        {
+          "activity_id": "act-course-vocabulary-clue-grid",
+          "title": "Multimedia vocabulary clue grid",
+          "route": "activities.html#act-course-vocabulary-clue-grid",
+          "state": "optional bank extension"
+        }
+      ],
+      "folio_stage": {
+        "stage_id": "visual-direction",
+        "stage_number": 2,
+        "title": "Visual direction and success criteria",
+        "route": "folio.html#folio-stage-visual-direction"
+      },
+      "assessment_boundary": "Formative evidence guide - not a formal task notification; Selected design-process evidence only. It is not automatically marked or submitted.",
+      "outcome_codes": [
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-DIG-02",
+        "TE4-PPM-01"
+      ],
+      "lesson_entries": [
+        {
+          "period": 3,
+          "planned_focus": "Colour roles, contrast and typography",
+          "primary_type": "Site/theory",
+          "section_ids": [
+            "m02-s01",
+            "m02-s02"
+          ],
+          "presentation_filename": "module-02-visual-language.pptx",
+          "source_media_ids": [
+            "colour-meaning-context",
+            "typography-tone-comparison"
+          ],
+          "activity_ids": [
+            "act-m02-palette-purpose"
+          ],
+          "folio_stage_id": "visual-direction",
+          "planned_evidence": "Palette and typography decisions name purpose, audience and a readable contrast check.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-DES-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        },
+        {
+          "period": 4,
+          "planned_focus": "Hierarchy, layout and visual direction",
+          "primary_type": "Project/folio",
+          "section_ids": [
+            "m02-s03"
+          ],
+          "presentation_filename": "module-02-visual-language.pptx",
+          "source_media_ids": [
+            "moodboard-workspace",
+            "visual-hierarchy-eye-path"
+          ],
+          "activity_ids": [
+            "act-m02-type-hierarchy",
+            "act-course-vocabulary-clue-grid"
+          ],
+          "folio_stage_id": "visual-direction",
+          "planned_evidence": "Visual direction is coherent and success criteria are observable rather than based only on taste.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        }
+      ]
+    },
+    {
+      "module_id": "module-03",
+      "module_number": 3,
+      "module_title": "Logo systems",
+      "route": "modules/module-03.html",
+      "section_codes": [
+        {
+          "section_id": "m03-s01",
+          "title": "Symbols and recognition",
+          "route": "modules/module-03.html#m03-s01"
+        },
+        {
+          "section_id": "m03-s02",
+          "title": "Scale, contrast and simplicity",
+          "route": "modules/module-03.html#m03-s02"
+        },
+        {
+          "section_id": "m03-s03",
+          "title": "Logo variants and critique",
+          "route": "modules/module-03.html#m03-s03"
+        }
+      ],
+      "presentation": {
+        "state": "integrated Stage 07 presentation file; final deck QA pending",
+        "expected_filename": "module-03-logo-systems.pptx",
+        "expected_path": "resources/presentations/module-03-logo-systems.pptx"
+      },
+      "drive_media": {
+        "source_refs": [
+          {
+            "source_id": "drive:business-planning-brainstorm",
+            "title": "Business Planning Brainstorm",
+            "drive_id": "13tXPa3Zq024LQK5sinXcbaukdzPfJEoMvm3wfNOmoTg",
+            "kind": "teacher master"
+          },
+          {
+            "source_id": "drive:being-a-graphic-designer",
+            "title": "Being a Graphic Designer",
+            "drive_id": "18vZsOCmAIfvwDfujuUrDJzOfP6zeeSUcPgX8JlWpNr4",
+            "kind": "teacher master"
+          },
+          {
+            "source_id": "drive:logo-canva-demonstration",
+            "title": "Creating a Logo in Canva Demo Video.mp4",
+            "drive_id": "1QwBddmlZ8KtJ_e1HzQFyY5EM-IpedPRg",
+            "kind": "teacher demonstration video"
+          },
+          {
+            "source_id": "drive:poster-exemplars",
+            "title": "Current Drive poster and three contextual mock-ups",
+            "drive_ids": [
+              "15TN4IA_A8hVyi8y6pJm1FQLt8sgVC6lF",
+              "1HcPYwQWU8hwUQIvwTrbelmv1Oht34-bQ",
+              "1XwNIF0j57yjphJKc6vIuLSfkGIhQOZbc",
+              "1xikLjbdDipDPon_9RxxE7K8hgJKMxp7U"
+            ],
+            "kind": "source images"
+          }
+        ],
+        "placed_source_images": [],
+        "placed_videos": [
+          {
+            "media_id": "logo-canva-demo",
+            "title": "Creating a Logo in Canva Demo Video.mp4",
+            "drive_id": "1QwBddmlZ8KtJ_e1HzQFyY5EM-IpedPRg",
+            "duration": "3:15",
+            "status": "MATCHED",
+            "source_issue": null,
+            "route": "modules/module-03.html#logo-canva-demo"
+          }
+        ]
+      },
+      "applied_activities": [
+        {
+          "activity_id": "act-m03-logo-stress-test",
+          "title": "Logo stress-test station",
+          "route": "activities.html#act-m03-logo-stress-test",
+          "state": "mapped"
+        },
+        {
+          "activity_id": "act-m03-critique-sort",
+          "title": "Critique that helps",
+          "route": "activities.html#act-m03-critique-sort",
+          "state": "mapped"
+        }
+      ],
+      "folio_stage": {
+        "stage_id": "logo-system",
+        "stage_number": 3,
+        "title": "Logo system",
+        "route": "folio.html#folio-stage-logo-system"
+      },
+      "assessment_boundary": "Formative evidence guide - not a formal task notification; Student-created evidence only. The software demonstration is support, not assessment criteria.",
+      "outcome_codes": [
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-SAF-01",
+        "TE4-DIG-02",
+        "TE4-PPM-01"
+      ],
+      "lesson_entries": [
+        {
+          "period": 5,
+          "planned_focus": "Symbols, recognition and logo stress testing",
+          "primary_type": "Site/theory",
+          "section_ids": [
+            "m03-s01",
+            "m03-s02"
+          ],
+          "presentation_filename": "module-03-logo-systems.pptx",
+          "source_media_ids": [
+            "logo-simplicity-test",
+            "logo-scale-test"
+          ],
+          "activity_ids": [
+            "act-m03-logo-stress-test"
+          ],
+          "folio_stage_id": "logo-system",
+          "planned_evidence": "Logo remains recognisable in small, large, one-colour and contrasting-background tests.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-DES-01",
+            "TE4-SAF-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        },
+        {
+          "period": 6,
+          "planned_focus": "Canva logo workflow, variants and critique",
+          "primary_type": "Practical",
+          "section_ids": [
+            "m03-s03"
+          ],
+          "presentation_filename": "module-03-logo-systems.pptx",
+          "source_media_ids": [
+            "logo-variant-system",
+            "logo-canva-demo"
+          ],
+          "activity_ids": [
+            "act-m03-critique-sort"
+          ],
+          "folio_stage_id": "logo-system",
+          "planned_evidence": "Selected logo and rationale show an original decision, a scale/contrast check and a justified revision.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-SAF-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        }
+      ]
+    },
+    {
+      "module_id": "module-04",
+      "module_number": 4,
+      "module_title": "Menu information design",
+      "route": "modules/module-04.html",
+      "section_codes": [
+        {
+          "section_id": "m04-s01",
+          "title": "Grouping and information architecture",
+          "route": "modules/module-04.html#m04-s01"
+        },
+        {
+          "section_id": "m04-s02",
+          "title": "Readability and scanning",
+          "route": "modules/module-04.html#m04-s02"
+        },
+        {
+          "section_id": "m04-s03",
+          "title": "Honest product information",
+          "route": "modules/module-04.html#m04-s03"
+        }
+      ],
+      "presentation": {
+        "state": "integrated Stage 07 presentation file; final deck QA pending",
+        "expected_filename": "module-04-menu-information-design.pptx",
+        "expected_path": "resources/presentations/module-04-menu-information-design.pptx"
+      },
+      "drive_media": {
+        "source_refs": [
+          {
+            "source_id": "drive:canteen-menu",
+            "title": "Canteen Menu WWHS.jpg",
+            "drive_id": "13ive02RO-0Ejmm1AEXgo69uUk8wGJ822",
+            "kind": "source image; information-design example only"
+          },
+          {
+            "source_id": "drive:business-planning-brainstorm",
+            "title": "Business Planning Brainstorm",
+            "drive_id": "13tXPa3Zq024LQK5sinXcbaukdzPfJEoMvm3wfNOmoTg",
+            "kind": "teacher master"
+          },
+          {
+            "source_id": "drive:poster-exemplars",
+            "title": "Current Drive poster and three contextual mock-ups",
+            "drive_ids": [
+              "15TN4IA_A8hVyi8y6pJm1FQLt8sgVC6lF",
+              "1HcPYwQWU8hwUQIvwTrbelmv1Oht34-bQ",
+              "1XwNIF0j57yjphJKc6vIuLSfkGIhQOZbc",
+              "1xikLjbdDipDPon_9RxxE7K8hgJKMxp7U"
+            ],
+            "kind": "source images"
+          },
+          {
+            "source_id": "drive:being-a-graphic-designer",
+            "title": "Being a Graphic Designer",
+            "drive_id": "18vZsOCmAIfvwDfujuUrDJzOfP6zeeSUcPgX8JlWpNr4",
+            "kind": "teacher master"
+          },
+          {
+            "source_id": "drive:marketing-simulation",
+            "title": "Investigation: The McDonald's Management & Marketing Simulation",
+            "drive_id": "1yFGIGIEeoFJ2UVKpIlY1TUt7DAQdIWWJvdw2T69NqSs",
+            "kind": "teacher activity master"
+          }
+        ],
+        "placed_source_images": [
+          {
+            "media_id": "canteen-menu-source",
+            "title": "The supplied WWHS canteen menu is used only as an information-design example; its products and prices may be historical.",
+            "src": "assets/source/drive-canteen-menu-wwhs.jpg",
+            "route": "modules/module-04.html#canteen-menu-source"
+          }
+        ],
+        "placed_videos": []
+      },
+      "applied_activities": [
+        {
+          "activity_id": "act-m04-menu-scan-map",
+          "title": "Menu scan-path investigation",
+          "route": "activities.html#act-m04-menu-scan-map",
+          "state": "mapped"
+        },
+        {
+          "activity_id": "act-m04-honest-information",
+          "title": "Claim, evidence or hold",
+          "route": "activities.html#act-m04-honest-information",
+          "state": "mapped"
+        }
+      ],
+      "folio_stage": {
+        "stage_id": "menu-ethics",
+        "stage_number": 4,
+        "title": "Menu information and honest marketing",
+        "route": "folio.html#folio-stage-menu-ethics"
+      },
+      "assessment_boundary": "Formative evidence guide - not a formal task notification; The historical canteen image is an information-design example, not authority for current products or prices.",
+      "outcome_codes": [
+        "TE4-PDP-01",
+        "TE4-PPM-01",
+        "TE4-DES-01",
+        "TE4-DIG-02",
+        "TE4-DIG-01"
+      ],
+      "lesson_entries": [
+        {
+          "period": 7,
+          "planned_focus": "Menu structure, grouping and scan paths",
+          "primary_type": "Site/theory",
+          "section_ids": [
+            "m04-s01",
+            "m04-s02"
+          ],
+          "presentation_filename": "module-04-menu-information-design.pptx",
+          "source_media_ids": [
+            "canteen-menu-source",
+            "menu-information-architecture",
+            "menu-scan-alignment"
+          ],
+          "activity_ids": [
+            "act-m04-menu-scan-map"
+          ],
+          "folio_stage_id": "menu-ethics",
+          "planned_evidence": "Menu structure uses labelled groups, predictable alignment and a reader finding test.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        },
+        {
+          "period": 8,
+          "planned_focus": "Honest product information and menu evidence",
+          "primary_type": "Project/folio",
+          "section_ids": [
+            "m04-s03"
+          ],
+          "presentation_filename": "module-04-menu-information-design.pptx",
+          "source_media_ids": [],
+          "activity_ids": [
+            "act-m04-honest-information"
+          ],
+          "folio_stage_id": "menu-ethics",
+          "planned_evidence": "Student menu evidence is original and does not copy historical products, prices or unsupported benefits.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-DIG-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        }
+      ]
+    },
+    {
+      "module_id": "module-05",
+      "module_number": 5,
+      "module_title": "Promotional poster",
+      "route": "modules/module-05.html",
+      "section_codes": [
+        {
+          "section_id": "m05-s01",
+          "title": "Composition and focal point",
+          "route": "modules/module-05.html#m05-s01"
+        },
+        {
+          "section_id": "m05-s02",
+          "title": "Image selection and background removal",
+          "route": "modules/module-05.html#m05-s02"
+        },
+        {
+          "section_id": "m05-s03",
+          "title": "Calls to action and mock-ups",
+          "route": "modules/module-05.html#m05-s03"
+        }
+      ],
+      "presentation": {
+        "state": "integrated Stage 07 presentation file; final deck QA pending",
+        "expected_filename": "module-05-promotional-poster.pptx",
+        "expected_path": "resources/presentations/module-05-promotional-poster.pptx"
+      },
+      "drive_media": {
+        "source_refs": [
+          {
+            "source_id": "drive:poster-exemplars",
+            "title": "Current Drive poster and three contextual mock-ups",
+            "drive_ids": [
+              "15TN4IA_A8hVyi8y6pJm1FQLt8sgVC6lF",
+              "1HcPYwQWU8hwUQIvwTrbelmv1Oht34-bQ",
+              "1XwNIF0j57yjphJKc6vIuLSfkGIhQOZbc",
+              "1xikLjbdDipDPon_9RxxE7K8hgJKMxp7U"
+            ],
+            "kind": "source images"
+          },
+          {
+            "source_id": "drive:poster-canva-demonstration",
+            "title": "Create a poster in Canva.mp4",
+            "drive_id": "1xN8xO5IlId6A7KnY-YQQjXK3_qygi-f3",
+            "kind": "teacher demonstration video"
+          },
+          {
+            "source_id": "drive:being-a-graphic-designer",
+            "title": "Being a Graphic Designer",
+            "drive_id": "18vZsOCmAIfvwDfujuUrDJzOfP6zeeSUcPgX8JlWpNr4",
+            "kind": "teacher master"
+          }
+        ],
+        "placed_source_images": [
+          {
+            "media_id": "poster-source-original",
+            "title": "The supplied Korean Burger poster combines brand name, product image, price, logo and an Order Now call to action.",
+            "src": "assets/source/drive-poster-original.png",
+            "route": "modules/module-05.html#poster-source-original"
+          },
+          {
+            "media_id": "poster-table-mockup-source",
+            "title": "The supplied tabletop mock-up tests the same poster under perspective, distance and warm lighting.",
+            "src": "assets/source/drive-poster-table-mockup.png",
+            "route": "modules/module-05.html#poster-table-mockup-source"
+          },
+          {
+            "media_id": "poster-outdoor-mockup-source",
+            "title": "The supplied outdoor mock-up shows the poster at distance inside a framed public display.",
+            "src": "assets/source/drive-poster-outdoor-mockup.png",
+            "route": "modules/module-05.html#poster-outdoor-mockup-source"
+          },
+          {
+            "media_id": "poster-street-mockup-source",
+            "title": "The supplied street mock-up places the poster behind glass beside a road and city buildings.",
+            "src": "assets/source/drive-poster-street-mockup.png",
+            "route": "modules/module-05.html#poster-street-mockup-source"
+          }
+        ],
+        "placed_videos": [
+          {
+            "media_id": "poster-canva-demo",
+            "title": "Create a poster in Canva.mp4",
+            "drive_id": "1xN8xO5IlId6A7KnY-YQQjXK3_qygi-f3",
+            "duration": "7:54",
+            "status": "MATCHED",
+            "source_issue": null,
+            "route": "modules/module-05.html#poster-canva-demo"
+          }
+        ]
+      },
+      "applied_activities": [
+        {
+          "activity_id": "act-m05-focal-path",
+          "title": "Five-second focal-path test",
+          "route": "activities.html#act-m05-focal-path",
+          "state": "mapped"
+        },
+        {
+          "activity_id": "act-m05-cutout-context",
+          "title": "Cut-out or context?",
+          "route": "activities.html#act-m05-cutout-context",
+          "state": "mapped"
+        }
+      ],
+      "folio_stage": {
+        "stage_id": "poster-context",
+        "stage_number": 5,
+        "title": "Promotional poster in context",
+        "route": "folio.html#folio-stage-poster-context"
+      },
+      "assessment_boundary": "Formative evidence guide - not a formal task notification; The Drive poster is an exemplar. Students must submit their own original work.",
+      "outcome_codes": [
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-DIG-02",
+        "TE4-PPM-01",
+        "TE4-SAF-01"
+      ],
+      "lesson_entries": [
+        {
+          "period": 9,
+          "planned_focus": "Poster composition and focal path",
+          "primary_type": "Site/theory",
+          "section_ids": [
+            "m05-s01"
+          ],
+          "presentation_filename": "module-05-promotional-poster.pptx",
+          "source_media_ids": [
+            "poster-source-original",
+            "poster-layout-focal-point"
+          ],
+          "activity_ids": [
+            "act-m05-focal-path"
+          ],
+          "folio_stage_id": "poster-context",
+          "planned_evidence": "Poster plan names what viewers should notice first, next and last, with a reason for each choice.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-DES-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        },
+        {
+          "period": 10,
+          "planned_focus": "Poster production, clean edges and contextual mock-ups",
+          "primary_type": "Practical",
+          "section_ids": [
+            "m05-s02",
+            "m05-s03"
+          ],
+          "presentation_filename": "module-05-promotional-poster.pptx",
+          "source_media_ids": [
+            "poster-table-mockup-source",
+            "poster-outdoor-mockup-source",
+            "poster-street-mockup-source",
+            "background-removal-edge-check",
+            "poster-canva-demo"
+          ],
+          "activity_ids": [
+            "act-m05-cutout-context"
+          ],
+          "folio_stage_id": "poster-context",
+          "planned_evidence": "Poster export has clean image edges, readable hierarchy, an honest action and one context-driven revision.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-SAF-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        }
+      ]
+    },
+    {
+      "module_id": "module-06",
+      "module_number": 6,
+      "module_title": "Brand applications",
+      "route": "modules/module-06.html",
+      "section_codes": [
+        {
+          "section_id": "m06-s01",
+          "title": "Consistent identity",
+          "route": "modules/module-06.html#m06-s01"
+        },
+        {
+          "section_id": "m06-s02",
+          "title": "Designing a staff uniform",
+          "route": "modules/module-06.html#m06-s02"
+        },
+        {
+          "section_id": "m06-s03",
+          "title": "Checking suitability and accessibility",
+          "route": "modules/module-06.html#m06-s03"
+        }
+      ],
+      "presentation": {
+        "state": "integrated Stage 07 presentation file; final deck QA pending",
+        "expected_filename": "module-06-brand-applications.pptx",
+        "expected_path": "resources/presentations/module-06-brand-applications.pptx"
+      },
+      "drive_media": {
+        "source_refs": [
+          {
+            "source_id": "drive:poster-exemplars",
+            "title": "Current Drive poster and three contextual mock-ups",
+            "drive_ids": [
+              "15TN4IA_A8hVyi8y6pJm1FQLt8sgVC6lF",
+              "1HcPYwQWU8hwUQIvwTrbelmv1Oht34-bQ",
+              "1XwNIF0j57yjphJKc6vIuLSfkGIhQOZbc",
+              "1xikLjbdDipDPon_9RxxE7K8hgJKMxp7U"
+            ],
+            "kind": "source images"
+          },
+          {
+            "source_id": "drive:staff-uniform-canva-demonstration",
+            "title": "Creating a Staff Uniform in Canva Demo.mp4",
+            "drive_id": "1hIuwMunPHaPjdVAjPsKlIWJEm9vYMkxl",
+            "kind": "teacher demonstration video"
+          },
+          {
+            "source_id": "drive:business-planning-brainstorm",
+            "title": "Business Planning Brainstorm",
+            "drive_id": "13tXPa3Zq024LQK5sinXcbaukdzPfJEoMvm3wfNOmoTg",
+            "kind": "teacher master"
+          }
+        ],
+        "placed_source_images": [],
+        "placed_videos": [
+          {
+            "media_id": "staff-uniform-canva-demo",
+            "title": "Creating a Staff Uniform in Canva Demo.mp4",
+            "drive_id": "1hIuwMunPHaPjdVAjPsKlIWJEm9vYMkxl",
+            "duration": "1:54",
+            "status": "MATCHED",
+            "source_issue": null,
+            "route": "modules/module-06.html#staff-uniform-canva-demo"
+          }
+        ]
+      },
+      "applied_activities": [
+        {
+          "activity_id": "act-m06-brand-application-check",
+          "title": "Same brand, different context",
+          "route": "activities.html#act-m06-brand-application-check",
+          "state": "mapped"
+        }
+      ],
+      "folio_stage": {
+        "stage_id": "uniform-application",
+        "stage_number": 6,
+        "title": "Staff uniform brand application",
+        "route": "folio.html#folio-stage-uniform-application"
+      },
+      "assessment_boundary": "Formative evidence guide - not a formal task notification; The folio records a design decision, not teacher-observed practical competence.",
+      "outcome_codes": [
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-DIG-02",
+        "TE4-PPM-01",
+        "TE4-SAF-01"
+      ],
+      "lesson_entries": [
+        {
+          "period": 11,
+          "planned_focus": "Consistent identity across touchpoints",
+          "primary_type": "Site/theory",
+          "section_ids": [
+            "m06-s01"
+          ],
+          "presentation_filename": "module-06-brand-applications.pptx",
+          "source_media_ids": [
+            "brand-touchpoints",
+            "brand-consistency-system"
+          ],
+          "activity_ids": [
+            "act-m06-brand-application-check"
+          ],
+          "folio_stage_id": "uniform-application",
+          "planned_evidence": "Student can distinguish deliberate consistency from copying one layout unchanged.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-DES-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        },
+        {
+          "period": 12,
+          "planned_focus": "Staff-uniform concept, suitability and accessibility",
+          "primary_type": "Practical",
+          "section_ids": [
+            "m06-s02",
+            "m06-s03"
+          ],
+          "presentation_filename": "module-06-brand-applications.pptx",
+          "source_media_ids": [
+            "uniform-system",
+            "accessibility-contrast-check",
+            "staff-uniform-canva-demo"
+          ],
+          "activity_ids": [
+            "act-m06-brand-application-check"
+          ],
+          "folio_stage_id": "uniform-application",
+          "planned_evidence": "Uniform concept retains brand recognition and explains suitability, accessibility and one tested change.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-SAF-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        }
+      ]
+    },
+    {
+      "module_id": "module-07",
+      "module_number": 7,
+      "module_title": "Motion advertising",
+      "route": "modules/module-07.html",
+      "section_codes": [
+        {
+          "section_id": "m07-s01",
+          "title": "Frames, states and transitions",
+          "route": "modules/module-07.html#m07-s01"
+        },
+        {
+          "section_id": "m07-s02",
+          "title": "Match and Move",
+          "route": "modules/module-07.html#m07-s02"
+        },
+        {
+          "section_id": "m07-s03",
+          "title": "Timing, export and quality checks",
+          "route": "modules/module-07.html#m07-s03"
+        }
+      ],
+      "presentation": {
+        "state": "integrated Stage 07 presentation file; final deck QA pending",
+        "expected_filename": "module-07-motion-advertising.pptx",
+        "expected_path": "resources/presentations/module-07-motion-advertising.pptx"
+      },
+      "drive_media": {
+        "source_refs": [
+          {
+            "source_id": "drive:match-and-move-demonstration",
+            "title": "Match and Move.mp4",
+            "drive_id": "1yRWtqn_jBI_IyJRJ8yyJ3KL1Fp1L8vgt",
+            "kind": "teacher demonstration video"
+          },
+          {
+            "source_id": "drive:match-and-move-source-clip",
+            "title": "drive:match-and-move-source-clip",
+            "kind": "authorised Drive source"
+          }
+        ],
+        "placed_source_images": [],
+        "placed_videos": [
+          {
+            "media_id": "match-and-move-demo",
+            "title": "Match and Move.mp4",
+            "drive_id": "1yRWtqn_jBI_IyJRJ8yyJ3KL1Fp1L8vgt",
+            "duration": "6:21",
+            "status": "MATCHED",
+            "source_issue": null,
+            "route": "modules/module-07.html#match-and-move-demo"
+          },
+          {
+            "media_id": "match-and-move-advertising",
+            "title": "Match and Move Advertising.mp4",
+            "drive_id": "1dk-pn0y46VZLTET4dY9cVYRTcQumJgd_",
+            "duration": "0:16",
+            "status": "REWORK",
+            "source_issue": "Exact bytes and anonymous Drive preview verified, but full-clip sampling shows Canva Home → Create a design → blank A4 document, not a finished animated advertisement.",
+            "route": "modules/module-07.html#match-and-move-advertising"
+          }
+        ]
+      },
+      "applied_activities": [
+        {
+          "activity_id": "act-m07-state-sequence",
+          "title": "Match the motion states",
+          "route": "activities.html#act-m07-state-sequence",
+          "state": "mapped"
+        },
+        {
+          "activity_id": "act-m07-export-inspection",
+          "title": "Pause, inspect, export",
+          "route": "activities.html#act-m07-export-inspection",
+          "state": "mapped"
+        }
+      ],
+      "folio_stage": {
+        "stage_id": "motion-advertisement",
+        "stage_number": 7,
+        "title": "Motion advertisement",
+        "route": "folio.html#folio-stage-motion-advertisement"
+      },
+      "assessment_boundary": "Formative evidence guide - not a formal task notification; A still image and filename do not prove the MP4 was submitted. Follow the teacher's approved video-submission direction.",
+      "outcome_codes": [
+        "TE4-PPM-01",
+        "TE4-DES-01",
+        "TE4-SAF-01",
+        "TE4-DIG-01",
+        "TE4-DIG-02"
+      ],
+      "lesson_entries": [
+        {
+          "period": 13,
+          "planned_focus": "Motion states and Match and Move",
+          "primary_type": "Site/theory",
+          "section_ids": [
+            "m07-s01",
+            "m07-s02"
+          ],
+          "presentation_filename": "module-07-motion-advertising.pptx",
+          "source_media_ids": [
+            "motion-state-sequence",
+            "match-move-continuity",
+            "match-and-move-demo"
+          ],
+          "activity_ids": [
+            "act-m07-state-sequence"
+          ],
+          "folio_stage_id": "motion-advertisement",
+          "planned_evidence": "Storyboard names the complete starting and ending states and the element properties changed between them.",
+          "outcome_codes": [
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-SAF-01",
+            "TE4-DIG-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        },
+        {
+          "period": 14,
+          "planned_focus": "Timing, MP4 export and evidence-quality check",
+          "primary_type": "Practical",
+          "section_ids": [
+            "m07-s03"
+          ],
+          "presentation_filename": "module-07-motion-advertising.pptx",
+          "source_media_ids": [
+            "export-quality-check",
+            "match-and-move-advertising"
+          ],
+          "activity_ids": [
+            "act-m07-export-inspection"
+          ],
+          "folio_stage_id": "motion-advertisement",
+          "planned_evidence": "Reopened MP4 is checked for timing, hierarchy, crop, spelling and ending; a still and filename are not treated as submission proof.",
+          "outcome_codes": [
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-SAF-01",
+            "TE4-DIG-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        }
+      ]
+    },
+    {
+      "module_id": "module-08",
+      "module_number": 8,
+      "module_title": "Ethical marketing systems",
+      "route": "modules/module-08.html",
+      "section_codes": [
+        {
+          "section_id": "m08-s01",
+          "title": "Persuasion and target groups",
+          "route": "modules/module-08.html#m08-s01"
+        },
+        {
+          "section_id": "m08-s02",
+          "title": "Greenwashing and truth",
+          "route": "modules/module-08.html#m08-s02"
+        },
+        {
+          "section_id": "m08-s03",
+          "title": "Ripple effects and designer responsibility",
+          "route": "modules/module-08.html#m08-s03"
+        }
+      ],
+      "presentation": {
+        "state": "integrated Stage 07 presentation file; final deck QA pending",
+        "expected_filename": "module-08-ethical-marketing-systems.pptx",
+        "expected_path": "resources/presentations/module-08-ethical-marketing-systems.pptx"
+      },
+      "drive_media": {
+        "source_refs": [
+          {
+            "source_id": "drive:marketing-simulation",
+            "title": "Investigation: The McDonald's Management & Marketing Simulation",
+            "drive_id": "1yFGIGIEeoFJ2UVKpIlY1TUt7DAQdIWWJvdw2T69NqSs",
+            "kind": "teacher activity master"
+          },
+          {
+            "source_id": "drive:business-planning-brainstorm",
+            "title": "Business Planning Brainstorm",
+            "drive_id": "13tXPa3Zq024LQK5sinXcbaukdzPfJEoMvm3wfNOmoTg",
+            "kind": "teacher master"
+          },
+          {
+            "source_id": "drive:canteen-menu",
+            "title": "Canteen Menu WWHS.jpg",
+            "drive_id": "13ive02RO-0Ejmm1AEXgo69uUk8wGJ822",
+            "kind": "source image; information-design example only"
+          }
+        ],
+        "placed_source_images": [],
+        "placed_videos": []
+      },
+      "applied_activities": [
+        {
+          "activity_id": "act-m08-claim-check",
+          "title": "Persuasion or unsupported pressure?",
+          "route": "activities.html#act-m08-claim-check",
+          "state": "mapped"
+        },
+        {
+          "activity_id": "act-m08-ripple-chain",
+          "title": "Ripple-effect chain",
+          "route": "activities.html#act-m08-ripple-chain",
+          "state": "mapped"
+        }
+      ],
+      "folio_stage": {
+        "stage_id": "menu-ethics",
+        "stage_number": 4,
+        "title": "Menu information and honest marketing",
+        "route": "folio.html#folio-stage-menu-ethics"
+      },
+      "assessment_boundary": "Formative evidence guide - not a formal task notification; The historical canteen image is an information-design example, not authority for current products or prices.",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-DIG-01",
+        "TE4-PPM-01"
+      ],
+      "lesson_entries": [
+        {
+          "period": 15,
+          "planned_focus": "Persuasion, target groups and greenwashing",
+          "primary_type": "Site/theory",
+          "section_ids": [
+            "m08-s01",
+            "m08-s02"
+          ],
+          "presentation_filename": "module-08-ethical-marketing-systems.pptx",
+          "source_media_ids": [
+            "persuasion-evidence-ladder",
+            "greenwashing-claim-check"
+          ],
+          "activity_ids": [
+            "act-m08-claim-check"
+          ],
+          "folio_stage_id": "menu-ethics",
+          "planned_evidence": "Student identifies what a claim says, what evidence exists and how wording should be limited.",
+          "outcome_codes": [
+            "TE4-SDP-01",
+            "TE4-PDP-01",
+            "TE4-DES-01",
+            "TE4-DIG-01"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        },
+        {
+          "period": 16,
+          "planned_focus": "Business ripple effects and designer responsibility",
+          "primary_type": "Project/folio",
+          "section_ids": [
+            "m08-s03"
+          ],
+          "presentation_filename": "module-08-ethical-marketing-systems.pptx",
+          "source_media_ids": [
+            "systems-ripple-effect"
+          ],
+          "activity_ids": [
+            "act-m08-ripple-chain"
+          ],
+          "folio_stage_id": "menu-ethics",
+          "planned_evidence": "Ripple chain makes uncertainty visible and ends with a realistic, responsible designer action.",
+          "outcome_codes": [
+            "TE4-SDP-01",
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-DIG-01"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        }
+      ]
+    },
+    {
+      "module_id": "module-09",
+      "module_number": 9,
+      "module_title": "Web portfolio",
+      "route": "modules/module-09.html",
+      "section_codes": [
+        {
+          "section_id": "m09-s01",
+          "title": "Site structure and navigation",
+          "route": "modules/module-09.html#m09-s01"
+        },
+        {
+          "section_id": "m09-s02",
+          "title": "Preparing and embedding media",
+          "route": "modules/module-09.html#m09-s02"
+        },
+        {
+          "section_id": "m09-s03",
+          "title": "Publishing, access and submission",
+          "route": "modules/module-09.html#m09-s03"
+        }
+      ],
+      "presentation": {
+        "state": "integrated Stage 07 presentation file; final deck QA pending",
+        "expected_filename": "module-09-web-portfolio.pptx",
+        "expected_path": "resources/presentations/module-09-web-portfolio.pptx"
+      },
+      "drive_media": {
+        "source_refs": [
+          {
+            "source_id": "drive:google-sites-demonstration",
+            "title": "Google Sites Demonstration.mp4",
+            "drive_id": "1PV_O58qVIZ7AtoJrjfTLl9R_xML1JcqP",
+            "kind": "teacher demonstration video"
+          },
+          {
+            "source_id": "drive:website-link-prompt",
+            "title": "Website Link",
+            "drive_id": "1M_Iqw3xC-FdAXi5FYyQ0X9on4HE6_i2Cq4kiu1DgXjc",
+            "kind": "teacher evidence prompt"
+          },
+          {
+            "source_id": "drive:poster-exemplars",
+            "title": "Current Drive poster and three contextual mock-ups",
+            "drive_ids": [
+              "15TN4IA_A8hVyi8y6pJm1FQLt8sgVC6lF",
+              "1HcPYwQWU8hwUQIvwTrbelmv1Oht34-bQ",
+              "1XwNIF0j57yjphJKc6vIuLSfkGIhQOZbc",
+              "1xikLjbdDipDPon_9RxxE7K8hgJKMxp7U"
+            ],
+            "kind": "source images"
+          },
+          {
+            "source_id": "drive:match-and-move-demonstration",
+            "title": "Match and Move.mp4",
+            "drive_id": "1yRWtqn_jBI_IyJRJ8yyJ3KL1Fp1L8vgt",
+            "kind": "teacher demonstration video"
+          }
+        ],
+        "placed_source_images": [],
+        "placed_videos": [
+          {
+            "media_id": "google-sites-demo",
+            "title": "Google Sites Demonstration.mp4",
+            "drive_id": "1PV_O58qVIZ7AtoJrjfTLl9R_xML1JcqP",
+            "duration": "8:55",
+            "status": "MATCHED",
+            "source_issue": null,
+            "route": "modules/module-09.html#google-sites-demo"
+          }
+        ]
+      },
+      "applied_activities": [
+        {
+          "activity_id": "act-m09-site-preflight",
+          "title": "Three-page site preflight",
+          "route": "activities.html#act-m09-site-preflight",
+          "state": "mapped"
+        }
+      ],
+      "folio_stage": {
+        "stage_id": "web-evaluation",
+        "stage_number": 8,
+        "title": "Web portfolio and evaluation",
+        "route": "folio.html#folio-stage-web-evaluation"
+      },
+      "assessment_boundary": "Formative evidence guide - not a formal task notification; A saved link is preparation, not proof of access or formal submission. The required sharing setting and submission route are Teacher to confirm.",
+      "outcome_codes": [
+        "TE4-PPM-01",
+        "TE4-DES-01",
+        "TE4-SAF-01",
+        "TE4-DIG-01",
+        "TE4-DIG-02"
+      ],
+      "lesson_entries": [
+        {
+          "period": 17,
+          "planned_focus": "Web portfolio structure and prepared media",
+          "primary_type": "Site/theory",
+          "section_ids": [
+            "m09-s01",
+            "m09-s02"
+          ],
+          "presentation_filename": "module-09-web-portfolio.pptx",
+          "source_media_ids": [
+            "site-structure-map",
+            "google-sites-demo"
+          ],
+          "activity_ids": [
+            "act-m09-site-preflight"
+          ],
+          "folio_stage_id": "web-evaluation",
+          "planned_evidence": "Site structure is predictable and media preparation includes alt text, privacy and access considerations.",
+          "outcome_codes": [
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-SAF-01",
+            "TE4-DIG-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        },
+        {
+          "period": 18,
+          "planned_focus": "Publication, access and teacher-viewable link",
+          "primary_type": "Practical",
+          "section_ids": [
+            "m09-s03"
+          ],
+          "presentation_filename": "module-09-web-portfolio.pptx",
+          "source_media_ids": [
+            "publish-access-check"
+          ],
+          "activity_ids": [
+            "act-m09-site-preflight"
+          ],
+          "folio_stage_id": "web-evaluation",
+          "planned_evidence": "Link works for the intended viewer without exposing edit access, personal details or unapproved public sharing.",
+          "outcome_codes": [
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-SAF-01",
+            "TE4-DIG-01",
+            "TE4-DIG-02"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        }
+      ]
+    },
+    {
+      "module_id": "module-10",
+      "module_number": 10,
+      "module_title": "Present, evaluate, improve",
+      "route": "modules/module-10.html",
+      "section_codes": [
+        {
+          "section_id": "m10-s01",
+          "title": "Success criteria and feedback",
+          "route": "modules/module-10.html#m10-s01"
+        },
+        {
+          "section_id": "m10-s02",
+          "title": "Explaining design decisions",
+          "route": "modules/module-10.html#m10-s02"
+        },
+        {
+          "section_id": "m10-s03",
+          "title": "Evaluation and next iteration",
+          "route": "modules/module-10.html#m10-s03"
+        }
+      ],
+      "presentation": {
+        "state": "integrated Stage 07 presentation file; final deck QA pending",
+        "expected_filename": "module-10-present-evaluate-improve.pptx",
+        "expected_path": "resources/presentations/module-10-present-evaluate-improve.pptx"
+      },
+      "drive_media": {
+        "source_refs": [
+          {
+            "source_id": "drive:business-planning-brainstorm",
+            "title": "Business Planning Brainstorm",
+            "drive_id": "13tXPa3Zq024LQK5sinXcbaukdzPfJEoMvm3wfNOmoTg",
+            "kind": "teacher master"
+          },
+          {
+            "source_id": "drive:unit-evaluation-prompts",
+            "title": "Fast Food Futures Digital Branding Unit",
+            "drive_id": "1KqrXZtWsX6l_mklGmTcgb6LxvteCa_U8-FI53gwnyMU",
+            "kind": "teacher evaluation-form structure; responses excluded"
+          },
+          {
+            "source_id": "drive:poster-exemplars",
+            "title": "Current Drive poster and three contextual mock-ups",
+            "drive_ids": [
+              "15TN4IA_A8hVyi8y6pJm1FQLt8sgVC6lF",
+              "1HcPYwQWU8hwUQIvwTrbelmv1Oht34-bQ",
+              "1XwNIF0j57yjphJKc6vIuLSfkGIhQOZbc",
+              "1xikLjbdDipDPon_9RxxE7K8hgJKMxp7U"
+            ],
+            "kind": "source images"
+          },
+          {
+            "source_id": "drive:being-a-graphic-designer",
+            "title": "Being a Graphic Designer",
+            "drive_id": "18vZsOCmAIfvwDfujuUrDJzOfP6zeeSUcPgX8JlWpNr4",
+            "kind": "teacher master"
+          },
+          {
+            "source_id": "drive:website-link-prompt",
+            "title": "Website Link",
+            "drive_id": "1M_Iqw3xC-FdAXi5FYyQ0X9on4HE6_i2Cq4kiu1DgXjc",
+            "kind": "teacher evidence prompt"
+          }
+        ],
+        "placed_source_images": [],
+        "placed_videos": []
+      },
+      "applied_activities": [
+        {
+          "activity_id": "act-m10-feedback-rationale",
+          "title": "From feedback to rationale",
+          "route": "activities.html#act-m10-feedback-rationale",
+          "state": "mapped"
+        },
+        {
+          "activity_id": "act-m10-next-iteration",
+          "title": "Next-iteration priority board",
+          "route": "activities.html#act-m10-next-iteration",
+          "state": "mapped"
+        }
+      ],
+      "folio_stage": {
+        "stage_id": "web-evaluation",
+        "stage_number": 8,
+        "title": "Web portfolio and evaluation",
+        "route": "folio.html#folio-stage-web-evaluation"
+      },
+      "assessment_boundary": "Formative evidence guide - not a formal task notification; A saved link is preparation, not proof of access or formal submission. The required sharing setting and submission route are Teacher to confirm.",
+      "outcome_codes": [
+        "TE4-PDP-01",
+        "TE4-PPM-01",
+        "TE4-DES-01",
+        "TE4-DIG-01",
+        "TE4-SDP-01"
+      ],
+      "lesson_entries": [
+        {
+          "period": 19,
+          "planned_focus": "Success criteria, feedback and design rationale",
+          "primary_type": "Site/theory",
+          "section_ids": [
+            "m10-s01",
+            "m10-s02"
+          ],
+          "presentation_filename": "module-10-present-evaluate-improve.pptx",
+          "source_media_ids": [
+            "peer-critique",
+            "feedback-iteration-cycle"
+          ],
+          "activity_ids": [
+            "act-m10-feedback-rationale"
+          ],
+          "folio_stage_id": "web-evaluation",
+          "planned_evidence": "Rationale connects audience, purpose, criterion, observed evidence, judgement and revision.",
+          "outcome_codes": [
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-DIG-01"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        },
+        {
+          "period": 20,
+          "planned_focus": "Evaluation, next iteration and final evidence",
+          "primary_type": "Project/folio",
+          "section_ids": [
+            "m10-s03"
+          ],
+          "presentation_filename": "module-10-present-evaluate-improve.pptx",
+          "source_media_ids": [
+            "evaluation-evidence-structure"
+          ],
+          "activity_ids": [
+            "act-m10-next-iteration"
+          ],
+          "folio_stage_id": "web-evaluation",
+          "planned_evidence": "Evaluation uses specific evidence, identifies a limitation and proposes one testable next iteration without claiming formal submission.",
+          "outcome_codes": [
+            "TE4-SDP-01",
+            "TE4-PDP-01",
+            "TE4-PPM-01",
+            "TE4-DES-01",
+            "TE4-DIG-01"
+          ],
+          "date_taught": "",
+          "teacher_initials": "",
+          "completion_or_variance": "",
+          "evidence_checked": "",
+          "adjustments": "",
+          "follow_up": ""
+        }
+      ]
+    }
+  ],
+  "assessment_boundary": {
+    "student_page_status": "Formative evidence guide - not a formal task notification",
+    "formal_status": "Teacher to confirm",
+    "authority_decision": "The current booklet provides a course-wide Mandatory Technology schedule, but no exact Multimedia rotation task, approved task notice, criteria or submission route was found in the authorised course source pack.",
+    "exact_multimedia_notice": "not supplied",
+    "local_program_rule": "Do not infer an exact task, date, weighting, marks, criteria, outcomes or submission route from the course-wide handbook schedule.",
+    "formative_evidence_areas": [
+      {
+        "id": "design-decisions",
+        "title": "Design decisions",
+        "folio_stages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "id": "created-media",
+        "title": "Created media",
+        "folio_stages": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": "testing-improvement",
+        "title": "Testing and improvement",
+        "folio_stages": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": "portfolio-evaluation",
+        "title": "Web portfolio and evaluation",
+        "folio_stages": [
+          8
+        ]
+      }
+    ]
+  },
+  "teacher_to_confirm_ids": [
+    "TTC-01",
+    "TTC-02",
+    "TTC-03",
+    "TTC-04",
+    "TTC-05",
+    "TTC-06",
+    "TTC-07",
+    "TTC-08"
+  ],
+  "validation": {
+    "status": "PASS",
+    "checked_at": "2026-08-24",
+    "checks": {
+      "lessons": 20,
+      "modules": 10,
+      "theory_sections": 30,
+      "knowledge_checks": 90,
+      "capstones": 30,
+      "activities": 19,
+      "media_assets": 41,
+      "folio_stages_represented": 8,
+      "selected_outcomes": 7,
+      "presentation_files": 10,
+      "rework_video_preserved": true
+    },
+    "failures": []
+  }
+}

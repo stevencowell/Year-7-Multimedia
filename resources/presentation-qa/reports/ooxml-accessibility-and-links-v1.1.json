@@ -1,0 +1,188 @@
+{
+  "schema": "year7-multimedia-stage16-presentation-repair-ooxml/v1",
+  "generatedAt": "2026-08-24T01:01:00.689Z",
+  "deckDirectory": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations",
+  "status": "PASS",
+  "deckCount": 10,
+  "slideCount": 80,
+  "pictureCount": 14,
+  "accessiblePictureCount": 14,
+  "hyperlinkCount": 6,
+  "sourceBlockCount": 80,
+  "warningPreserved": true,
+  "decks": [
+    {
+      "module": 1,
+      "file": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations\\module-01-the-design-challenge.pptx",
+      "bytes": 3343865,
+      "sha256": "3dce387f917b78c728a84fcbdf5e4b15533c170daf230c725f7e92bddeadb7cd",
+      "slideCount": 8,
+      "pictureCount": 1,
+      "accessiblePictureCount": 1,
+      "hyperlinkCount": 0,
+      "sourceBlockCount": 8,
+      "expectedLinkedSlides": [],
+      "linkedSlides": [],
+      "warningPreserved": true,
+      "failures": []
+    },
+    {
+      "module": 2,
+      "file": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations\\module-02-visual-language.pptx",
+      "bytes": 3768598,
+      "sha256": "23bfbfda2cb121df21616872f3f525d33808474ff36304d54d306813bd74bb75",
+      "slideCount": 8,
+      "pictureCount": 1,
+      "accessiblePictureCount": 1,
+      "hyperlinkCount": 0,
+      "sourceBlockCount": 8,
+      "expectedLinkedSlides": [],
+      "linkedSlides": [],
+      "warningPreserved": true,
+      "failures": []
+    },
+    {
+      "module": 3,
+      "file": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations\\module-03-logo-systems.pptx",
+      "bytes": 149819,
+      "sha256": "4fd1f834296923515a7567c376fa2777304867e58e14552f2b1cbf415278672b",
+      "slideCount": 8,
+      "pictureCount": 1,
+      "accessiblePictureCount": 1,
+      "hyperlinkCount": 1,
+      "sourceBlockCount": 8,
+      "expectedLinkedSlides": [
+        1
+      ],
+      "linkedSlides": [
+        1
+      ],
+      "warningPreserved": true,
+      "failures": []
+    },
+    {
+      "module": 4,
+      "file": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations\\module-04-menu-information-design.pptx",
+      "bytes": 706675,
+      "sha256": "a470577a5065b123a0633562d0d7bfe0889fb206d6218450e83cc20867b68294",
+      "slideCount": 8,
+      "pictureCount": 1,
+      "accessiblePictureCount": 1,
+      "hyperlinkCount": 0,
+      "sourceBlockCount": 8,
+      "expectedLinkedSlides": [],
+      "linkedSlides": [],
+      "warningPreserved": true,
+      "failures": []
+    },
+    {
+      "module": 5,
+      "file": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations\\module-05-promotional-poster.pptx",
+      "bytes": 7876431,
+      "sha256": "ee614b025a1168e97202c249faab6a5208484ba8e22e679d6925905f1f5e2d60",
+      "slideCount": 8,
+      "pictureCount": 4,
+      "accessiblePictureCount": 4,
+      "hyperlinkCount": 1,
+      "sourceBlockCount": 8,
+      "expectedLinkedSlides": [
+        4
+      ],
+      "linkedSlides": [
+        4
+      ],
+      "warningPreserved": true,
+      "failures": []
+    },
+    {
+      "module": 6,
+      "file": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations\\module-06-brand-applications.pptx",
+      "bytes": 2941666,
+      "sha256": "f63931f1b363f30db420917c6260676678318a9aff6f5d9cc91b7c2a8047c432",
+      "slideCount": 8,
+      "pictureCount": 2,
+      "accessiblePictureCount": 2,
+      "hyperlinkCount": 1,
+      "sourceBlockCount": 8,
+      "expectedLinkedSlides": [
+        4
+      ],
+      "linkedSlides": [
+        4
+      ],
+      "warningPreserved": true,
+      "failures": []
+    },
+    {
+      "module": 7,
+      "file": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations\\module-07-motion-advertising.pptx",
+      "bytes": 217065,
+      "sha256": "7730e2a0cba09ab2c2f7d9d2a6c97e535d0b19741a1921b6c71ad7bec05c2877",
+      "slideCount": 8,
+      "pictureCount": 2,
+      "accessiblePictureCount": 2,
+      "hyperlinkCount": 2,
+      "sourceBlockCount": 8,
+      "expectedLinkedSlides": [
+        1,
+        4
+      ],
+      "linkedSlides": [
+        1,
+        4
+      ],
+      "warningPreserved": true,
+      "failures": []
+    },
+    {
+      "module": 8,
+      "file": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations\\module-08-ethical-marketing-systems.pptx",
+      "bytes": 45369,
+      "sha256": "6dbe27eaca2d7d38ce18842f559d6b7e41740e1b460756447afca02dc0197e6c",
+      "slideCount": 8,
+      "pictureCount": 0,
+      "accessiblePictureCount": 0,
+      "hyperlinkCount": 0,
+      "sourceBlockCount": 8,
+      "expectedLinkedSlides": [],
+      "linkedSlides": [],
+      "warningPreserved": true,
+      "failures": []
+    },
+    {
+      "module": 9,
+      "file": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations\\module-09-web-portfolio.pptx",
+      "bytes": 128700,
+      "sha256": "b42a978a2358490edab2d280751f2d7a7e2408b4229313a7a0ea3982d2f78bb7",
+      "slideCount": 8,
+      "pictureCount": 1,
+      "accessiblePictureCount": 1,
+      "hyperlinkCount": 1,
+      "sourceBlockCount": 8,
+      "expectedLinkedSlides": [
+        4
+      ],
+      "linkedSlides": [
+        4
+      ],
+      "warningPreserved": true,
+      "failures": []
+    },
+    {
+      "module": 10,
+      "file": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-24\\new-tas-course-site-builder-plugin\\work\\Year-7-Multimedia\\resources\\presentations\\module-10-present-evaluate-improve.pptx",
+      "bytes": 3681952,
+      "sha256": "293e28258fef4925d6a76cc2ad3220b639dc956c3cfe98ecbf2db1aeba56ffd2",
+      "slideCount": 8,
+      "pictureCount": 1,
+      "accessiblePictureCount": 1,
+      "hyperlinkCount": 0,
+      "sourceBlockCount": 8,
+      "expectedLinkedSlides": [],
+      "linkedSlides": [],
+      "warningPreserved": true,
+      "failures": []
+    }
+  ],
+  "failures": []
+}
