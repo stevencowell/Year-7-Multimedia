@@ -2,7 +2,7 @@
 window.YEAR7_MULTIMEDIA_MEDIA = {
   "version": "1.0",
   "generatedAt": "2026-08-24",
-  "course": "Year 7 Technology — Multimedia: Fast Food Futures",
+  "course": "Stage 4 Technology — Multimedia: Fast Food Futures",
   "sourceMap": "docs/source-map-v1.0.md",
   "counts": {
     "qualifyingTeachingVisuals": 43,

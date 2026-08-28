@@ -470,7 +470,7 @@
   }
 
   function validateBackup(payload) {
-    if (!payload || payload.format !== config.backupFormat) throw new Error("This is not a Year 7 Multimedia folio backup");
+    if (!payload || payload.format !== config.backupFormat) throw new Error("This is not a Multimedia folio backup");
     if (payload.courseId !== config.courseId) throw new Error("This backup belongs to a different course");
     if (payload.schemaVersion !== config.schemaVersion) throw new Error("This backup uses an unsupported folio schema");
     const restoredState = normaliseState(payload.state);
@@ -594,9 +594,10 @@
     }).join("");
 
     return `<!doctype html>
-<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Year 7 Multimedia folio - ${escapeHtml(studentName)}</title><style>
+<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Multimedia folio - ${escapeHtml(studentName)}</title><style>
 @page{size:A4;margin:14mm}*{box-sizing:border-box}body{margin:0;background:#f4f7f6;color:#102a35;font:16px/1.55 Arial,sans-serif}.wrap{width:min(900px,calc(100% - 32px));margin:0 auto;padding:32px 0}.cover,.stage{margin:0 0 24px;padding:24px;border:1px solid #b8c8c4;border-radius:14px;background:#fff}.cover{border-top:10px solid #0d756b}.kicker{margin:0;color:#07564f;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}h1,h2,h3{line-height:1.2}h1{margin:.3rem 0 1rem}h2{margin:.2rem 0 0}h3{margin:0 0 .35rem;font-size:1rem}.notice,.boundary{padding:12px;border-left:5px solid #f2c14e;background:#fff8dc}.stage header{display:flex;gap:14px;align-items:center}.stage header>span{display:grid;width:46px;aspect-ratio:1;place-items:center;border-radius:10px;background:#102a35;color:#fff;font-weight:900}.field{margin:14px 0;padding:12px;border:1px solid #d6e1de;border-radius:10px}.field p{margin:0;overflow-wrap:anywhere}figure{margin:18px 0;padding:10px;border:1px solid #d6e1de;border-radius:10px}img{display:block;max-width:100%;max-height:460px;margin:auto;object-fit:contain}figcaption{margin-top:8px;color:#52656d}.missing{color:#52656d;font-style:italic}@media print{body{background:#fff}.wrap{width:100%;padding:0}.cover,.stage{box-shadow:none}.stage{min-height:235mm;break-before:page;break-inside:avoid}.stage:first-of-type{break-before:auto}}
-</style></head><body><main class="wrap"><section class="cover"><p class="kicker">Self-contained submission copy</p><h1>${escapeHtml(config.courseTitle)}</h1><p><strong>Student:</strong> ${escapeHtml(studentName)}<br><strong>Class/group:</strong> ${escapeHtml(classGroup)}<br><strong>Exported:</strong> ${escapeHtml(exportedAt)}</p><p class="notice"><strong>This file is preparation, not proof of submission.</strong> It contains the text and images selected in the browser folio. It does not contain MP4 video files, quiz results or teacher-observation records. Follow the teacher's approved submission directions.</p></section>${stageMarkup}</main></body></html>`;
+</style>  <link rel="icon" href="data:,">
+</head><body><main class="wrap"><section class="cover"><p class="kicker">Self-contained submission copy</p><h1>${escapeHtml(config.courseTitle)}</h1><p><strong>Student:</strong> ${escapeHtml(studentName)}<br><strong>Class/group:</strong> ${escapeHtml(classGroup)}<br><strong>Exported:</strong> ${escapeHtml(exportedAt)}</p><p class="notice"><strong>This file is preparation, not proof of submission.</strong> It contains the text and images selected in the browser folio. It does not contain MP4 video files, quiz results or teacher-observation records. Follow the teacher's approved submission directions.</p></section>${stageMarkup}</main></body></html>`;
   }
 
   async function exportSubmission() {
@@ -611,7 +612,7 @@
   }
 
   async function resetFolio() {
-    if (!window.confirm("Reset all Year 7 Multimedia folio text and images on this device? Download a backup first if you may need this work.")) return false;
+    if (!window.confirm("Reset all Multimedia folio text and images on this device? Download a backup first if you may need this work.")) return false;
     try {
       localStorage.removeItem(config.recordKey);
       await replaceAllImages([]);

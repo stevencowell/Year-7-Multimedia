@@ -1,6 +1,6 @@
 window.YEAR7_MULTIMEDIA = {
   storagePrefix: "year7multimedia:",
-  title: "Year 7 Technology",
+  title: "Stage 4 Technology",
   unit: "Multimedia — Fast Food Futures",
   focusArea: "Digital and communication technologies",
   modules: [

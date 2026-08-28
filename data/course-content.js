@@ -27,8 +27,8 @@
     storagePrefix: PREFIX,
     evidenceLabel: "Formative learning evidence",
     saveNotice: "Your work is saved only in this browser on this device. Saving here does not submit it to your teacher.",
-    resetNotice: "Reset only the selected record after clear confirmation. Other Year 7 Multimedia work must remain unchanged.",
-    printSummaryTitle: "Year 7 Multimedia — formative learning evidence",
+    resetNotice: "Reset only the selected record after clear confirmation. Other Multimedia work must remain unchanged.",
+    printSummaryTitle: "Multimedia — formative learning evidence",
     modules: [
       {
         number: 1, slug: "the-design-challenge", title: "The design challenge",

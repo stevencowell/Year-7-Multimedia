@@ -1,4 +1,4 @@
-/* Year 7 Multimedia evidence extension v1.1.
+/* Multimedia evidence extension v1.1.
    Adds purposeful retrieval, visual reasoning and extended written evidence
    without renaming any existing student storage record. */
 (() => {
@@ -1020,7 +1020,7 @@
   );
   const missing = Object.keys(additions).filter(sectionId => !sections.has(sectionId));
   if (missing.length) {
-    console.error("Year 7 Multimedia evidence extension could not find sections:", missing.join(", "));
+    console.error("Multimedia evidence extension could not find sections:", missing.join(", "));
     return;
   }
 

@@ -212,7 +212,7 @@
 
   window.YEAR7_MULTIMEDIA_FOLIO = Object.freeze({
     courseId: "year7multimedia",
-    courseTitle: "Year 7 Technology - Multimedia: Fast Food Futures",
+    courseTitle: "Stage 4 Technology - Multimedia: Fast Food Futures",
     schemaVersion: "1.0.0",
     recordKey: "year7multimedia:folio:v1:state",
     legacyKeys: ["year7multimedia:folio", "year7multimedia:folio:v0:state"],

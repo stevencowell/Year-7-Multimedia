@@ -3,7 +3,7 @@
 
   window.YEAR7_MULTIMEDIA_ASSESSMENT = Object.freeze({
     courseId: "year7multimedia",
-    courseTitle: "Year 7 Technology - Multimedia: Fast Food Futures",
+    courseTitle: "Stage 4 Technology - Multimedia: Fast Food Futures",
     guideVersion: "1.0.0",
     guideStatus: "Formative evidence guide - not a formal task notification",
     acknowledgementKey: "year7multimedia:assessment:formative-guide:v1:ack",
